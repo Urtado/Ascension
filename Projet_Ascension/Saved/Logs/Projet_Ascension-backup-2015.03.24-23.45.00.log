@@ -1,0 +1,1615 @@
+﻿Log file open, 03/24/15 20:45:52
+LogInit:Display: Running engine for game: Projet_Ascension
+LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.25-00.45.52:084][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.25-00.45.52:137][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.25-00.45.52:151][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.25-00.45.52:163][  0]LogInit: Object subsystem initialized
+[2015.03.25-00.45.52:165][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.25-00.45.52:165][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.25-00.45.52:165][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.25-00.45.52:165][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.25-00.45.52:165][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.25-00.45.52:165][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.25-00.45.52:166][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.25-00.45.52:166][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.25-00.45.52:173][  0]LogInit: Computer: FRANCOIS-PC
+[2015.03.25-00.45.52:173][  0]LogInit: User: Francois
+[2015.03.25-00.45.52:173][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.25-00.45.52:173][  0]LogInit: High frequency timer resolution =3.001650 MHz
+[2015.03.25-00.45.52:173][  0]LogMemory: Memory total: Physical=12.0GB (12GB approx) Virtual=8192.0GB
+[2015.03.25-00.45.52:173][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.25-00.45.52:173][  0]LogMemory: Process Physical Memory: 47.88 MB used, 47.88 MB peak
+[2015.03.25-00.45.52:173][  0]LogMemory: Process Virtual Memory: 27.30 MB used, 27.31 MB peak
+[2015.03.25-00.45.52:173][  0]LogMemory: Physical Memory: 3816.37 MB used, 12279.12 MB total
+[2015.03.25-00.45.52:173][  0]LogMemory: Virtual Memory: 279.82 MB used, 8388608.00 MB total
+[2015.03.25-00.45.52:204][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 670 (Feature Level 11_0)
+[2015.03.25-00.45.52:204][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.03.25-00.45.52:204][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.25-00.45.52:209][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.25-00.45.52:219][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.25-00.45.52:283][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('en') localization data will be used.
+[2015.03.25-00.45.52:352][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.03.25-00.45.52:352][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.03.25-00.45.52:443][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.25-00.45.55:264][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.25-00.45.55:823][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.25-00.45.55:896][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.25-00.45.56:938][  0]LogDerivedDataCache: Loaded boot cache 1.04s 39MB C:/Users/Francois/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.25-00.45.56:939][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Francois/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.25-00.45.56:939][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.25-00.45.56:939][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.25-00.45.57:408][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.25-00.45.57:419][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Francois/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.25-00.45.57:906][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.25-00.45.57:906][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.25-00.45.58:316][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.25-00.45.58:403][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.25-00.45.59:271][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.25-00.45.59:495][  0]SourceControl: Info Source control is disabled
+[2015.03.25-00.45.59:495][  0]SourceControl: Info Source control is disabled
+[2015.03.25-00.45.59:495][  0]SourceControl: Info Source control is disabled
+[2015.03.25-00.45.59:495][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.25-00.45.59:495][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.25-00.45.59:505][  0]SourceControl: Info Source control is disabled
+[2015.03.25-00.45.59:708][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.25-00.45.59:708][  0]LogUObjectAllocator: 5136432 out of 0 bytes used by permanent object pool.
+[2015.03.25-00.45.59:815][  0]LogEngine: Initializing Engine...
+[2015.03.25-00.46.02:137][  0]LogInit: XAudio2 using 'Speakers (SoundMAX Integrated Digital HD Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2015.03.25-00.46.02:144][  0]LogInit: FAudioDevice initialized.
+[2015.03.25-00.46.02:188][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.25-00.46.02:210][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/Francois/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.25-00.46.02:216][  0]LogInit: Texture streaming: Enabled
+[2015.03.25-00.46.02:591][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.25-00.46.02:591][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.25-00.46.02:591][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.25-00.46.02:591][  0]LogAnalytics: SetUserId 07e017fb41a5cd2ffeb98cb1f2ced4ec|be9063669c854a3c8af4af24edce75df|e42add38-abc9-4b56-9fd0-573fb4cbfff5
+[2015.03.25-00.46.02:591][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.25-00.46.02:613][  0]LogInit: Transaction tracking system initialized
+[2015.03.25-00.46.02:798][  0]BlueprintLog: New page: Editor Load
+[2015.03.25-00.46.02:834][  0]LogAssetRegistry: FAssetRegistry took 0.0092 seconds to start up
+[2015.03.25-00.46.02:834][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.25-00.46.03:402][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.25-00.46.03:780][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.25-00.46.04:116][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.25-00.46.04:116][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.25-00.46.04:122][  0]LogConsoleResponse:Display: 
+[2015.03.25-00.46.06:103][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.25-00.46.06:302][  0]SourceControl: Info Source control is disabled
+[2015.03.25-00.46.06:303][  0]LightingResults: New page: Lighting Build
+[2015.03.25-00.46.06:316][  0]MapCheck: New page: Map Check
+[2015.03.25-00.46.06:317][  0]LightingResults: New page: Lighting Build
+[2015.03.25-00.46.06:324][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000013F70E00
+[2015.03.25-00.46.08:786][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.25-00.46.09:807][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.03.25-00.46.09:808][  0]Cmd: MAP CHECKDEP
+[2015.03.25-00.46.09:808][  0]MapCheck: New page: SideScrollerExampleMap - Mar 24, 2015, 4:46:09 PM
+[2015.03.25-00.46.09:896][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.61ms to complete.
+[2015.03.25-00.46.09:896][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 3.601
+[2015.03.25-00.46.10:044][  0]LogCollectionManager: Loaded 0 collections in 0.001772 seconds
+[2015.03.25-00.46.10:060][  0]LogContentBrowser: Native class hierarchy populated in 0.0156 seconds. Added 1696 classes and 261 folders.
+[2015.03.25-00.46.10:100][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0023 seconds. Added 1 classes and 2 folders.
+[2015.03.25-00.46.10:649][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.25-00.46.10:651][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.25-00.46.10:657][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.03.25-00.46.10:682][  0]LogLoad: Full Startup: 20.58 seconds (BP compile: 0.52 seconds)
+[2015.03.25-00.46.11:042][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.25-00.46.11:300][  0]LogRenderer:Warning: Reallocating scene render targets to support 1128x336 (Frame:2).
+[2015.03.25-00.46.50:108][117]LogAssetRegistry: Asset discovery search completed in 47.3727 seconds
+[2015.03.25-00.47.45:088][372]LightingResults: New page: Lighting Build
+[2015.03.25-00.47.45:135][372]LoadErrors: New page: Loading map: Ascension17.umap
+[2015.03.25-00.47.45:136][372]MapCheck: New page: Map Check
+[2015.03.25-00.47.45:136][372]LightingResults: New page: Lighting Build
+[2015.03.25-00.47.45:145][372]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D5F65C0
+[2015.03.25-00.47.46:470][372]LogStaticMesh: Building static mesh SM_IcePillar...
+[2015.03.25-00.47.47:099][372]LogStaticMesh: Built static mesh [745.354065ms] /Game/SideScrollerBP/Meshes/SM_IcePillar.SM_IcePillar
+[2015.03.25-00.47.47:250][372]LogTexture:Display: Building textures: T_IcePillar_N (AutoDXT)
+[2015.03.25-00.47.48:166][372]LogMaterial: Missing cached shader map for material M_IcePillars, compiling. 
+[2015.03.25-00.47.48:881][372]LogTexture:Display: Building textures: T_IceSpike_N (BC5)
+[2015.03.25-00.47.48:916][372]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-00.47.48:928][372]LogStaticMesh: Building static mesh SM_IceSpike1...
+[2015.03.25-00.47.48:934][372]LogStaticMesh: Built static mesh [6.438459ms] /Game/SideScrollerBP/Meshes/SM_IceSpike1.SM_IceSpike1
+[2015.03.25-00.47.48:996][372]LogStaticMesh: Building static mesh SM_IceSpike2...
+[2015.03.25-00.47.49:003][372]LogStaticMesh: Built static mesh [7.233688ms] /Game/SideScrollerBP/Meshes/SM_IceSpike2.SM_IceSpike2
+[2015.03.25-00.47.49:113][372]LogStaticMesh: Building static mesh SM_IceSpike3...
+[2015.03.25-00.47.49:119][372]LogStaticMesh: Built static mesh [73.617844ms] /Game/SideScrollerBP/Meshes/SM_IceSpike3.SM_IceSpike3
+[2015.03.25-00.47.50:580][372]LogTexture:Display: Building textures: Background_Matte (AutoDXT)
+[2015.03.25-00.47.52:082][372]LogMaterial: Missing cached shader map for material M_Background, compiling. 
+[2015.03.25-00.47.52:482][372]LogTexture:Display: Building textures: T_Menirs_N (BC5)
+[2015.03.25-00.47.53:337][372]LogMaterial: Missing cached shader map for material M_Menirs, compiling. 
+[2015.03.25-00.47.53:351][372]LogStaticMesh: Building static mesh BackGroundWall...
+[2015.03.25-00.47.53:354][372]LogStaticMesh: Built static mesh [3.027335ms] /Game/SideScrollerBP/Meshes/BackGroundWall.BackGroundWall
+[2015.03.25-00.47.53:424][372]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexHullBuilder.cpp (1126) 32 : ConvexHullBuilder::CreateTrianglesFromPolygons: convex hull has a polygon with less than 3 vertices!
+[2015.03.25-00.47.53:424][372]LogPhysics:Warning: PHYSX: ..\..\PhysXCooking\src\convex\ConvexMeshBuilder.cpp (266) 32 : Gu::ConvexMesh::loadConvexHull: convex hull init failed! Try to use the PxConvexFlag::eINFLATE_CONVEX flag. (see PxToolkit::createConvexMeshSafe)
+[2015.03.25-00.47.53:424][372]LogPhysics:Warning: Failed to cook convex: /Game/SideScrollerBP/Meshes/BackGroundWall.BackGroundWall 0 (FlipX:1). The remaining elements will not get cooked.
+[2015.03.25-00.47.53:513][372]LogStaticMesh: Building static mesh SM_Menir_01...
+[2015.03.25-00.47.53:534][372]LogStaticMesh: Built static mesh [44.324623ms] /Game/SideScrollerBP/Meshes/SM_Menir_01.SM_Menir_01
+[2015.03.25-00.47.53:538][372]LogStaticMesh: Building static mesh SM_Menir_02...
+[2015.03.25-00.47.53:566][372]LogStaticMesh: Built static mesh [28.773842ms] /Game/SideScrollerBP/Meshes/SM_Menir_02.SM_Menir_02
+[2015.03.25-00.47.55:520][372]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.25-00.47.55:983][372]LogAIModule: Creating AISystem for world Ascension17
+[2015.03.25-00.47.56:041][372]Cmd: MAP CHECKDEP
+[2015.03.25-00.47.56:041][372]MapCheck: New page: Ascension17 - Mar 24, 2015, 4:47:56 PM
+[2015.03.25-00.47.56:176][372]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 135.572ms to complete.
+[2015.03.25-00.47.56:176][372]LogFileHelpers: Loading map 'Ascension17' took 11.161
+[2015.03.25-00.48.10:172][716]LogRenderer:Warning: Reallocating scene render targets to support 1128x688 (Frame:3415).
+[2015.03.25-00.57.57:084][121]LogSavePackage: Save=1847.627808ms
+[2015.03.25-00.57.57:084][121]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ascension17_Auto1E6F353BE46EE969375273BBCECD337C3.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Maps/Ascension17_Auto1.umap'
+[2015.03.25-00.57.57:130][121]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Ascension17' took 2.088
+[2015.03.25-00.57.57:130][121]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.088
+[2015.03.25-00.58.19:850][221]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Francois/Desktop/Projet_ConceptionJeu_Ascension_WorkingFiles/IceShader/Ice0044_42_S.jpg)
+[2015.03.25-00.58.23:539][221]Error: Texture import failed
+[2015.03.25-00.58.24:871][221]LogAssetTools:Warning: Failed to import '../../../../../../Users/Francois/Desktop/Projet_ConceptionJeu_Ascension_WorkingFiles/IceShader/Ice0044_42_S.jpg'. Failed to create asset '/Game/SideScrollerBP/Meshes/Ice0044_42_S'
+[2015.03.25-00.59.06:849][954]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 ../../../../../../Users/Francois/Desktop/Projet_ConceptionJeu_Ascension_WorkingFiles/IceShader/T_Ice01_D.tga)
+[2015.03.25-00.59.06:879][954]0.011175 seconds to analyze Texture2D /Game/SideScrollerBP/Meshes/T_Ice01_D.T_Ice01_D
+
+[2015.03.25-00.59.06:912][954]LogTexture:Display: Building textures: T_Ice01_D (AutoDXT)
+[2015.03.25-00.59.07:171][954]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.25-00.59.07:172][954]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.25-00.59.14:134][495]LogMaterial: Missing cached shader map for material M_IcePillars, compiling. 
+[2015.03.25-00.59.14:337][495]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.03.25-00.59.14:740][495]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.03.25-00.59.14:754][495]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.03.25-00.59.14:754][495]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.03.25-00.59.14:754][495]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.03.25-00.59.14:758][495]LogMaterial: Missing cached shader map for material M_IcePillars, compiling. 
+[2015.03.25-00.59.14:776][495]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-00.59.14:802][495]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2015.03.25-00.59.14:821][495]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.03.25-00.59.15:466][497]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 39 instructions
+[2015.03.25-00.59.15:466][497]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-00.59.15:466][497]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.03.25-00.59.18:504][682]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-00.59.18:523][682]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.03.25-00.59.18:629][682]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.03.25-00.59.18:629][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.03.25-00.59.18:629][682]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2015.03.25-00.59.18:629][682]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2015.03.25-00.59.18:670][682]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-00.59.18:676][682]LogMaterial: 0.000036 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-00.59.18:782][682]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.03.25-00.59.18:787][682]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.03.25-00.59.19:472][701]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2015.03.25-00.59.19:472][701]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-00.59.19:472][701]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.03.25-01.05.21:325][381]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.05.21:331][381]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.05.21:332][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.25-01.05.21:368][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.03.25-01.05.21:371][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.03.25-01.05.21:400][381]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.25-01.05.22:547][436]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2015.03.25-01.05.22:547][436]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.05.22:547][436]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.03.25-01.05.30:125][967]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.05.30:131][967]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.05.30:867][999]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2015.03.25-01.05.30:867][999]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.05.30:867][999]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.03.25-01.05.37:350][450]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.05.37:356][450]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.05.38:079][481]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2015.03.25-01.05.38:079][481]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.05.38:079][481]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.03.25-01.05.42:475][776]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.05.42:481][776]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.05.42:547][776]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.25-01.05.43:185][803]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2015.03.25-01.05.43:185][803]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.05.43:185][803]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.03.25-01.05.45:645][972]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.05.45:652][972]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.05.45:699][972]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.03.25-01.05.46:371][  2]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2015.03.25-01.05.46:371][  2]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.05.46:371][  2]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.03.25-01.05.48:411][133]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.05.48:418][133]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.05.49:189][170]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.03.25-01.05.49:189][170]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.05.49:189][170]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.06.09:880][582]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.06.09:891][582]LogMaterial: 0.000091 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.06.09:896][582]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.06.09:897][582]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_IceSpike for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.25-01.06.09:897][582]LogMaterial:Warning: 	(Node TextureSample) Coercion failed: Parameters.VertexColor.rgb: float3 -> float2
+[2015.03.25-01.06.09:897][582]LogMaterial: 0.000031 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.06.09:937][582]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.25-01.06.09:939][582]MaterialEditorStats:Error: Error [SM5] (Node TextureSample) Coercion failed: Parameters.VertexColor.rgb: float3 -> float2
+[2015.03.25-01.06.13:887][853]LogEditorTransaction: Undo Move Node
+[2015.03.25-01.06.13:922][853]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.06.13:923][853]LogMaterial:Warning: Failed to compile Material /Engine/Transient.M_IceSpike for platform PCD3D_SM5, Default Material will be used in game.
+[2015.03.25-01.06.13:923][853]LogMaterial:Warning: 	(Node TextureSample) Coercion failed: Parameters.VertexColor.rgb: float3 -> float2
+[2015.03.25-01.06.13:923][853]LogMaterial: 0.000042 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.06.14:732][887]LogEditorTransaction: Undo Material Editor: New Expression
+[2015.03.25-01.06.14:760][887]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.06.14:769][887]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.06.14:775][887]LogMaterial: 0.000029 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.06.14:854][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.25-01.06.15:962][933]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.03.25-01.06.15:962][933]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.06.15:962][933]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.06.39:615][776]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.06.39:621][776]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.06.40:799][828]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.03.25-01.06.40:799][828]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.06.40:799][828]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.06.50:800][205]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.06.50:806][205]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.06.50:904][205]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.25-01.06.51:557][232]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 46 instructions
+[2015.03.25-01.06.51:557][232]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.06.51:557][232]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.07.06:031][658]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.07.06:037][658]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.07.06:786][691]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.07.06:787][691]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.07.06:787][691]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.07.27:141][519]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.07.27:147][519]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.07.28:371][575]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.07.28:371][575]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.07.28:371][575]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.07.33:602][918]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.07.33:608][918]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.07.34:360][951]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.07.34:360][951]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.07.34:360][951]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.07.51:272][565]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.07.51:278][565]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.07.52:026][596]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.07.52:026][596]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.07.52:026][596]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.08.00:210][125]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.08.00:216][125]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.08.00:970][159]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.08.00:970][159]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.08.00:970][159]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.08.05:533][277]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004F42E5C0
+[2015.03.25-01.08.05:537][277]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Ascension17' took 0.017
+[2015.03.25-01.08.05:582][277]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Meshes/T_Ice01_D] ([1] browsable assets)...
+[2015.03.25-01.08.05:652][277]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SideScrollerBP/Meshes/T_Ice01_D.T_Ice01_D]
+[2015.03.25-01.08.05:652][277]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Meshes/T_Ice01_D]
+[2015.03.25-01.08.06:436][277]LogSavePackage: Save=778.537109ms
+[2015.03.25-01.08.06:437][277]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/T_Ice01_D_Auto2228C37E84BF1CCED884D108CA078D234.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Meshes/T_Ice01_D_Auto2.uasset'
+[2015.03.25-01.08.06:462][277]LogFileHelpers: Auto-saving content packages took 0.927
+[2015.03.25-01.08.16:584][550]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.08.16:590][550]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.08.17:307][580]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.08.17:307][580]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.08.17:308][580]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.08.20:429][784]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.08.20:435][784]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.08.21:174][816]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.08.21:175][816]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.08.21:175][816]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.08.26:773][178]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.08.26:784][178]LogMaterial: 0.000098 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.08.27:583][214]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.08.27:583][214]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.08.27:583][214]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.09.09:342][390]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.09.09:348][390]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.09.10:557][445]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.09.10:557][445]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.09.10:557][445]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.09.23:109][805]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.09.23:115][805]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.09.23:852][835]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.09.23:852][835]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.09.23:852][835]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.09.46:940][260]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.09.46:946][260]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.09.48:165][318]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.09.48:165][318]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.09.48:165][318]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.09.56:689][908]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.09.56:695][908]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.09.57:450][939]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.09.57:450][939]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.09.57:451][939]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.10.01:373][209]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.10.01:379][209]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.10.02:170][244]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.10.02:170][244]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.10.02:170][244]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.10.12:846][555]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.10.12:853][555]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.10.13:577][584]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.10.13:577][584]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.10.13:578][584]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.10.26:145][  9]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.10.26:151][  9]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.10.26:961][ 42]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.10.26:962][ 42]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.10.26:962][ 42]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.10.54:698][488]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.10.54:704][488]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.10.54:705][488]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.03.25-01.10.54:736][488]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.03.25-01.10.54:739][488]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.03.25-01.10.54:761][488]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.25-01.10.54:785][488]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.03.25-01.10.55:970][536]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.10.55:970][536]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.10.55:970][536]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.10.57:620][633]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.10.57:626][633]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.10.57:673][633]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.03.25-01.10.58:469][664]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.10.58:470][664]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.10.58:470][664]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.11.12:535][934]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.11.12:541][934]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.11.12:541][934]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.03.25-01.11.13:320][966]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.11.13:320][966]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.11.13:320][966]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.11.23:487][285]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.11.23:494][285]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.11.23:625][285]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.03.25-01.11.24:223][309]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.11.24:223][309]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.11.24:223][309]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.11.52:786][498]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.11.52:792][498]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.11.52:821][498]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.03.25-01.11.54:143][553]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.11.54:143][553]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.11.54:144][553]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.12.01:128][706]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.12.01:134][706]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.12.01:214][706]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.03.25-01.12.01:860][731]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.12.01:860][731]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.12.01:860][731]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.21.06:091][844]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Francois\Desktop\Projet_ConceptionJeu_Ascension_WorkingFiles\IceShader\Ice0044_42_S_NRM.jpg)
+[2015.03.25-01.21.09:515][844]Error: Texture import failed
+[2015.03.25-01.21.10:755][844]LogAssetTools:Warning: Failed to import 'C:\Users\Francois\Desktop\Projet_ConceptionJeu_Ascension_WorkingFiles\IceShader\Ice0044_42_S_NRM.jpg'. Failed to create asset '/Game/SideScrollerBP/Meshes/Ice0044_42_S_NRM'
+[2015.03.25-01.22.22:187][452]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Francois\Desktop\Projet_ConceptionJeu_Ascension_WorkingFiles\IceShader\Ice0044_42_S_NRM.jpg)
+[2015.03.25-01.22.22:237][452]0.000036 seconds to analyze Texture2D /Game/SideScrollerBP/Meshes/Ice0044_42_S_NRM.Ice0044_42_S_NRM
+
+[2015.03.25-01.22.22:249][452]LogTexture:Display: Building textures: Ice0044_42_S_NRM (BC5)
+[2015.03.25-01.22.22:299][452]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.25-01.22.22:300][452]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.25-01.22.32:388][482]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Ascension17' took 0.016
+[2015.03.25-01.22.32:448][482]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Meshes/Ice0044_42_S_NRM] ([1] browsable assets)...
+[2015.03.25-01.22.32:490][482]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SideScrollerBP/Meshes/Ice0044_42_S_NRM.Ice0044_42_S_NRM]
+[2015.03.25-01.22.32:490][482]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Meshes/Ice0044_42_S_NRM]
+[2015.03.25-01.22.32:821][482]LogSavePackage: Save=327.648468ms
+[2015.03.25-01.22.32:822][482]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ice0044_42_S_NRM_Auto307611CC5446E2D556AFF90BA5314ED78.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Meshes/Ice0044_42_S_NRM_Auto3.uasset'
+[2015.03.25-01.22.32:829][482]LogFileHelpers: Auto-saving content packages took 0.442
+[2015.03.25-01.22.46:645][807]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Francois\Desktop\Projet_ConceptionJeu_Ascension_WorkingFiles\IceShader\Snow0064_72_S_NRM.jpg)
+[2015.03.25-01.22.46:657][807]0.000023 seconds to analyze Texture2D /Game/SideScrollerBP/Meshes/Snow0064_72_S_NRM.Snow0064_72_S_NRM
+
+[2015.03.25-01.22.46:698][807]LogTexture:Display: Building textures: Snow0064_72_S_NRM (BC5)
+[2015.03.25-01.22.46:735][807]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.25-01.22.46:736][807]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.25-01.23.53:477][ 49]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.23.53:483][ 49]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.23.53:492][ 49]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.03.25-01.23.53:531][ 49]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.03.25-01.23.53:535][ 49]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.03.25-01.23.53:562][ 49]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.25-01.23.53:566][ 49]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.03.25-01.23.53:592][ 49]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.03.25-01.23.53:596][ 49]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.03.25-01.23.54:686][ 90]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.23.54:686][ 90]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.23.54:686][ 90]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.23.56:789][196]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.23.56:795][196]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.23.56:877][196]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.03.25-01.23.57:554][222]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.23.57:554][222]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.23.57:554][222]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.24.42:394][828]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.24.42:400][828]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.24.43:583][876]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.24.43:583][876]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.24.43:583][876]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.24.45:390][981]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.24.45:396][981]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.24.45:464][981]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.03.25-01.24.46:107][  4]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.24.46:107][  4]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.24.46:107][  4]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.25.07:404][655]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.25.07:410][655]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.25.08:609][707]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.25.08:609][707]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.25.08:609][707]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.25.28:128][979]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.25.28:135][979]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.25.28:135][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.03.25-01.25.28:177][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.03.25-01.25.28:198][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.03.25-01.25.28:201][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.25-01.25.28:204][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.03.25-01.25.28:206][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.03.25-01.25.28:209][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.03.25-01.25.28:246][979]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.03.25-01.25.28:900][  0]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.25.28:900][  0]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.25.28:900][  0]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.25.33:807][242]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.25.33:813][242]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.25.33:867][242]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.03.25-01.25.34:559][266]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.25.34:559][266]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.25.34:559][266]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.25.47:978][499]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.25.47:984][499]LogMaterial: 0.000058 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.25.48:766][526]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.25.48:766][526]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.25.48:766][526]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.25.51:378][677]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.25.51:384][677]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.25.51:436][677]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.03.25-01.25.52:162][702]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.25.52:162][702]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.25.52:162][702]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.25.56:130][926]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.25.56:136][926]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.25.56:873][953]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.25.56:873][953]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.25.56:873][953]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.26.03:545][331]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.26.03:552][331]LogMaterial: 0.000303 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.26.04:277][355]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 47 instructions
+[2015.03.25-01.26.04:277][355]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.26.04:277][355]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.03.25-01.26.11:720][767]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.26.11:726][767]LogMaterial: 0.000052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.26.12:444][793]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 32 instructions
+[2015.03.25-01.26.12:444][793]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.26.12:444][793]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.03.25-01.26.14:976][924]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.26.14:982][924]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.26.15:750][949]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.26.15:750][949]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.26.15:750][949]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.26.34:357][977]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.26.34:363][977]LogMaterial: 0.000055 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.26.35:148][  5]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.26.35:148][  5]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.26.35:148][  5]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.26.39:582][269]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.26.39:588][269]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.26.40:392][299]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.26.40:392][299]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.26.40:392][299]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.26.46:548][664]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.26.46:555][664]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.26.47:373][694]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.26.47:373][694]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.26.47:373][694]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.26.51:881][972]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.26.51:887][972]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.26.52:721][  7]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.26.52:721][  7]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.26.52:721][  7]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.26.59:455][436]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.26.59:461][436]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.27.00:252][466]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.27.00:252][466]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.27.00:252][466]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.27.11:057][  6]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.27.11:070][  6]LogMaterial: 0.000473 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.27.11:899][ 38]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.27.11:899][ 38]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.27.11:899][ 38]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.27.14:051][160]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.03.25-01.27.14:092][160]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.27.14:098][160]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.27.14:921][192]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.27.14:921][192]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.27.14:921][192]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.27.44:324][820]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.27.44:330][820]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.27.45:622][877]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.27.45:623][877]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.27.45:623][877]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.28.09:339][686]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.28.09:345][686]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.28.10:660][743]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.28.10:661][743]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.28.10:661][743]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.28.12:520][854]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.28.12:526][854]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.28.13:361][888]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.28.13:361][888]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.28.13:361][888]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.28.23:548][499]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.28.23:554][499]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.28.24:412][532]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.28.24:412][532]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.28.24:412][532]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.28.26:171][640]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.28.26:177][640]LogMaterial: 0.000147 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.28.27:037][676]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.28.27:037][676]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.28.27:037][676]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.28.46:037][171]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.28.46:044][171]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.28.46:867][205]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.28.46:867][205]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.28.46:867][205]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.28.51:600][486]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.28.51:606][486]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.28.52:461][520]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.28.52:461][520]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.28.52:461][520]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.29.02:890][887]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.29.02:897][887]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.29.02:897][887]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2015.03.25-01.29.03:771][918]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.29.03:771][918]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.29.03:771][918]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.29.06:096][ 52]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.29.06:104][ 52]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.29.06:172][ 52]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2015.03.25-01.29.06:981][ 81]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.29.06:981][ 81]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.29.06:981][ 81]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.30.10:252][283]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.30.10:259][283]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.30.10:303][283]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2015.03.25-01.30.11:722][338]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.30.11:722][338]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.30.11:722][338]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.30.21:401][901]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.30.21:407][901]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.30.22:254][932]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 59 instructions
+[2015.03.25-01.30.22:254][932]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.30.22:254][932]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.31.06:677][949]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.31.06:723][949]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.31.06:729][949]LogMaterial: 0.000044 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.31.08:019][  0]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.03.25-01.31.08:019][  0]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.31.08:019][  0]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.25-01.31.29:844][740]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.31.29:859][740]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.31.29:865][740]LogMaterial: 0.000040 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.31.31:345][797]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2015.03.25-01.31.31:345][797]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.03.25-01.31.31:345][797]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.31.31:345][797]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.31.44:389][910]LogMaterialEditor: Applying material M_IceSpike
+[2015.03.25-01.31.46:091][910]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.31.46:134][910]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.31.46:230][910]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.31.46:322][910]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.31.46:374][910]LogMaterial: 0.039838 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.31.48:869][  9]LogMaterialEditor: Saving and Compiling material M_IceSpike
+[2015.03.25-01.31.50:701][  9]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.31.50:730][  9]LogMaterial: 0.000073 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.31.50:831][  9]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.31.50:881][  9]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.31.50:941][  9]LogMaterial: 0.042419 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.31.53:937][  9]LogSavePackage: Save=194.742218ms
+[2015.03.25-01.31.53:937][  9]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/M_IceSpike2C0B92114AC900829D13C3B57653B4A4.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/M_IceSpike.uasset'
+[2015.03.25-01.31.53:951][  9]MaterialEditorStats: Info Base pass shader with static lighting: 116 instructions
+[2015.03.25-01.31.53:951][  9]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 85 instructions
+[2015.03.25-01.31.53:951][  9]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.31.53:952][  9]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.03.25-01.32.14:316][ 57]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2015.03.25-01.32.16:945][151]Cmd: TRANSACTION UNDO
+[2015.03.25-01.32.16:945][151]LogEditorTransaction: Undo Move Actors
+[2015.03.25-01.32.16:969][151]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.32.16:976][151]LogMaterial: 0.000104 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.32.18:537][179]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2015.03.25-01.32.18:537][179]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.03.25-01.32.18:537][179]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.32.18:537][179]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.32.36:911][930]LogSavePackage: Save=1514.453003ms
+[2015.03.25-01.32.36:911][930]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ascension17_Auto43F6AAA8D4B5993E2CE03E1B0616481F7.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Maps/Ascension17_Auto4.umap'
+[2015.03.25-01.32.36:925][930]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Ascension17' took 1.638
+[2015.03.25-01.32.36:925][930]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.638
+[2015.03.25-01.32.36:962][930]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Meshes/Snow0064_72_S_NRM] ([1] browsable assets)...
+[2015.03.25-01.32.36:997][930]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SideScrollerBP/Meshes/Snow0064_72_S_NRM.Snow0064_72_S_NRM]
+[2015.03.25-01.32.36:997][930]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Meshes/Snow0064_72_S_NRM]
+[2015.03.25-01.32.38:660][930]LogSavePackage: Save=1661.206299ms
+[2015.03.25-01.32.38:660][930]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Snow0064_72_S_NRM_Auto46FD64A9D4BCE94A68AD98094F8CFBE34.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Meshes/Snow0064_72_S_NRM_Auto4.uasset'
+[2015.03.25-01.32.38:666][930]LogFileHelpers: Auto-saving content packages took 1.745
+[2015.03.25-01.33.23:702][741]LogEditorViewport: Clicking on Actor (LMB): SM_IceSpike01_C (SM_IceSpike2)
+[2015.03.25-01.34.43:426][142]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.34.43:433][142]LogMaterial: 0.000060 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.34.45:108][194]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2015.03.25-01.34.45:108][194]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.03.25-01.34.45:108][194]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.34.45:108][194]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.34.50:796][476]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.34.50:807][476]LogMaterial: 0.000091 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.34.52:004][508]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2015.03.25-01.34.52:004][508]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.03.25-01.34.52:004][508]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.34.52:004][508]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.35.06:731][841]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.35.06:739][841]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.35.07:912][875]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2015.03.25-01.35.07:912][875]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.03.25-01.35.07:912][875]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.35.07:913][875]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.35.18:579][430]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.35.18:586][430]LogMaterial: 0.000094 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.35.18:613][430]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.03.25-01.35.19:898][467]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2015.03.25-01.35.19:898][467]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.03.25-01.35.19:898][467]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.35.19:898][467]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.35.23:127][628]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.35.23:135][628]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.35.24:368][665]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2015.03.25-01.35.24:368][665]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.03.25-01.35.24:369][665]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.35.24:369][665]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.35.25:893][742]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.35.25:900][742]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.35.27:117][778]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2015.03.25-01.35.27:117][778]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.03.25-01.35.27:117][778]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.35.27:117][778]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.35.27:309][787]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.35.27:316][787]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.35.28:544][823]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2015.03.25-01.35.28:544][823]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.03.25-01.35.28:544][823]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.35.28:544][823]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.35.29:201][854]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.35.29:215][854]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.35.30:527][888]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2015.03.25-01.35.30:527][888]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.03.25-01.35.30:527][888]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.35.30:527][888]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.35.54:076][622]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.35.54:083][622]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.35.55:962][677]MaterialEditorStats: Info Base pass shader with static lighting: 92 instructions
+[2015.03.25-01.35.55:962][677]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.03.25-01.35.55:962][677]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.35.55:962][677]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.35.56:775][715]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.35.56:783][715]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.35.57:997][748]MaterialEditorStats: Info Base pass shader with static lighting: 92 instructions
+[2015.03.25-01.35.57:997][748]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.03.25-01.35.57:997][748]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.35.57:997][748]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.36.02:850][988]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.36.02:857][988]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.36.04:114][ 25]MaterialEditorStats: Info Base pass shader with static lighting: 92 instructions
+[2015.03.25-01.36.04:114][ 25]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.03.25-01.36.04:114][ 25]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.36.04:114][ 25]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.36.18:371][711]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.36.18:379][711]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.36.19:677][747]MaterialEditorStats: Info Base pass shader with static lighting: 92 instructions
+[2015.03.25-01.36.19:677][747]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 61 instructions
+[2015.03.25-01.36.19:677][747]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.36.19:677][747]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.36.21:329][826]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.36.21:337][826]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.36.22:582][862]MaterialEditorStats: Info Base pass shader with static lighting: 91 instructions
+[2015.03.25-01.36.22:582][862]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 60 instructions
+[2015.03.25-01.36.22:582][862]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.36.22:582][862]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.37.14:947][922]LogMaterialEditor: Applying material M_IceSpike
+[2015.03.25-01.37.16:864][922]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.37.16:899][922]LogMaterial: 0.000102 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.37.16:996][922]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.37.17:099][922]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.37.17:172][922]LogMaterial: 0.048897 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.37.21:775][ 59]MaterialEditorStats: Info Base pass shader with static lighting: 116 instructions
+[2015.03.25-01.37.21:775][ 59]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 85 instructions
+[2015.03.25-01.37.21:775][ 59]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.37.21:775][ 59]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.03.25-01.42.39:840][103]LogSavePackage: Save=1922.326416ms
+[2015.03.25-01.42.39:840][103]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ascension17_Auto5C7906BD6481D18F8D41E67B49A4173C9.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Maps/Ascension17_Auto5.umap'
+[2015.03.25-01.42.39:853][103]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Ascension17' took 2.051
+[2015.03.25-01.42.39:853][103]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.051
+[2015.03.25-01.42.39:904][103]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Meshes/M_IceSpike] ([1] browsable assets)...
+[2015.03.25-01.42.39:959][103]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SideScrollerBP/Meshes/M_IceSpike.M_IceSpike]
+[2015.03.25-01.42.39:959][103]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Meshes/M_IceSpike]
+[2015.03.25-01.42.40:251][103]LogSavePackage: Save=277.742249ms
+[2015.03.25-01.42.40:251][103]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/M_IceSpike_Auto5CC4918DC4330B2CFEFF591938E26D564.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Meshes/M_IceSpike_Auto5.uasset'
+[2015.03.25-01.42.40:258][103]LogFileHelpers: Auto-saving content packages took 0.405
+[2015.03.25-01.43.30:669][578]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.43.30:684][578]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.43.30:695][578]LogMaterial: 0.002940 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.43.32:691][631]MaterialEditorStats: Info Base pass shader with static lighting: 104 instructions
+[2015.03.25-01.43.32:691][631]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2015.03.25-01.43.32:691][631]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.43.32:691][631]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.44.34:436][424]LogMaterialEditor: Applying material M_IceSpike
+[2015.03.25-01.44.36:346][424]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.44.36:378][424]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.44.36:479][424]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.44.36:522][424]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.44.36:576][424]LogMaterial: 0.038388 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.44.37:864][456]LogMaterialEditor: Saving and Compiling material M_IceSpike
+[2015.03.25-01.44.41:115][456]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.44.41:160][456]LogMaterial: 0.000033 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.44.41:266][456]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.44.41:338][456]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.44.41:407][456]LogMaterial: 0.046470 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.44.45:557][456]LogSavePackage: Save=542.929077ms
+[2015.03.25-01.44.45:557][456]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/M_IceSpike3673832F40A15CC3D6D8CB91B3DA9DD7.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/M_IceSpike.uasset'
+[2015.03.25-01.44.45:571][456]MaterialEditorStats: Info Base pass shader with static lighting: 129 instructions
+[2015.03.25-01.44.45:571][456]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 98 instructions
+[2015.03.25-01.44.45:571][456]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.44.45:571][456]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.03.25-01.45.42:096][771]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight13)
+[2015.03.25-01.46.48:518][230]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\Francois\Desktop\Projet_ConceptionJeu_Ascension_WorkingFiles\IceShader\Snow0064_7_S_NRM.jpg)
+[2015.03.25-01.46.48:552][230]0.000037 seconds to analyze Texture2D /Game/SideScrollerBP/Meshes/Snow0064_7_S_NRM.Snow0064_7_S_NRM
+
+[2015.03.25-01.46.48:568][230]LogTexture:Display: Building textures: Snow0064_7_S_NRM (BC5)
+[2015.03.25-01.46.48:610][230]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.25-01.46.48:611][230]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.25-01.47.34:769][914]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.47.34:776][914]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.47.37:126][981]MaterialEditorStats: Info Base pass shader with static lighting: 104 instructions
+[2015.03.25-01.47.37:126][981]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2015.03.25-01.47.37:126][981]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.47.37:126][981]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.47.53:401][698]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.47.53:408][698]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.47.53:408][698]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.03.25-01.47.53:486][698]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.03.25-01.47.53:492][698]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.03.25-01.47.53:498][698]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.25-01.47.53:504][698]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.03.25-01.47.53:511][698]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.03.25-01.47.53:521][698]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.03.25-01.47.53:528][698]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.03.25-01.47.53:534][698]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2015.03.25-01.47.53:580][698]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.03.25-01.47.55:000][733]MaterialEditorStats: Info Base pass shader with static lighting: 104 instructions
+[2015.03.25-01.47.55:000][733]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2015.03.25-01.47.55:000][733]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.47.55:000][733]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.48.03:396][100]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.48.03:406][100]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.48.05:072][142]MaterialEditorStats: Info Base pass shader with static lighting: 97 instructions
+[2015.03.25-01.48.05:072][142]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.03.25-01.48.05:072][142]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.48.05:072][142]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.03.25-01.48.06:591][219]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.48.06:598][219]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.48.06:622][219]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.03.25-01.48.08:230][261]MaterialEditorStats: Info Base pass shader with static lighting: 97 instructions
+[2015.03.25-01.48.08:230][261]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.03.25-01.48.08:230][261]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.48.08:230][261]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.03.25-01.48.08:578][275]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.48.08:588][275]LogMaterial: 0.000191 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.48.08:614][275]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.03.25-01.48.10:152][314]MaterialEditorStats: Info Base pass shader with static lighting: 97 instructions
+[2015.03.25-01.48.10:152][314]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 66 instructions
+[2015.03.25-01.48.10:152][314]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.48.10:152][314]MaterialEditorStats: Info Texture samplers: 5/16
+[2015.03.25-01.48.10:712][342]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.48.10:720][342]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.48.10:762][342]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.03.25-01.48.12:333][384]MaterialEditorStats: Info Base pass shader with static lighting: 104 instructions
+[2015.03.25-01.48.12:333][384]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2015.03.25-01.48.12:334][384]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.48.12:334][384]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.48.25:697][  3]LogMaterialEditor: Applying material M_IceSpike
+[2015.03.25-01.48.27:777][  3]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.48.27:813][  3]LogMaterial: 0.000110 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.48.27:938][  3]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.48.28:040][  3]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.48.28:124][  3]LogMaterial: 0.050825 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.48.29:217][ 33]LogMaterialEditor: Saving and Compiling material M_IceSpike
+[2015.03.25-01.48.32:909][ 33]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.48.32:940][ 33]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.48.33:200][ 33]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.48.33:304][ 33]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.48.33:386][ 33]LogMaterial: 0.056255 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.48.38:170][ 33]LogSavePackage: Save=639.901062ms
+[2015.03.25-01.48.38:170][ 33]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/M_IceSpikeC7F77C5742C997848D620284D9CC7952.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/M_IceSpike.uasset'
+[2015.03.25-01.48.38:186][ 33]MaterialEditorStats: Info Base pass shader with static lighting: 129 instructions
+[2015.03.25-01.48.38:186][ 33]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 98 instructions
+[2015.03.25-01.48.38:186][ 33]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.48.38:187][ 33]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.03.25-01.48.49:082][676]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight13)
+[2015.03.25-01.50.10:199][111]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.50.10:206][111]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.50.12:667][182]MaterialEditorStats: Info Base pass shader with static lighting: 104 instructions
+[2015.03.25-01.50.12:667][182]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 73 instructions
+[2015.03.25-01.50.12:667][182]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.50.12:667][182]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.50.17:420][405]LogMaterialEditor: Applying material M_IceSpike
+[2015.03.25-01.50.19:613][405]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.50.19:653][405]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.50.19:874][405]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.50.19:957][405]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.50.20:034][405]LogMaterial: 0.050464 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.50.22:271][468]LogMaterialEditor: Saving and Compiling material M_IceSpike
+[2015.03.25-01.50.25:427][468]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.50.25:462][468]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.50.25:632][468]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.50.25:729][468]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.50.25:801][468]LogMaterial: 0.052300 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.50.30:653][468]LogSavePackage: Save=600.185913ms
+[2015.03.25-01.50.30:653][468]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/M_IceSpikeB3C28C6F4E8F0200D2BB78AF043054AE.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/M_IceSpike.uasset'
+[2015.03.25-01.50.30:669][468]MaterialEditorStats: Info Base pass shader with static lighting: 129 instructions
+[2015.03.25-01.50.30:669][468]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 98 instructions
+[2015.03.25-01.50.30:669][468]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.50.30:669][468]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.03.25-01.50.50:538][690]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight13)
+[2015.03.25-01.51.32:533][323]MapCheck: New page: Map Check
+[2015.03.25-01.51.32:654][323]LightingResults: New page: Lighting Build - Mar 24, 2015, 5:51:32 PM
+[2015.03.25-01.51.46:572][323]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2015.03.25-01.51.46:572][323]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2015.03.25-01.51.46:572][323]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2015.03.25-01.51.46:572][323]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2015.03.25-01.51.46:572][323]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2015.03.25-01.51.47:329][323]LogEditorBuildUtils: Build time 0:00:14
+[2015.03.25-01.51.47:698][327]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock3, compiling. 
+[2015.03.25-01.51.47:738][327]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock3, compiling. 
+[2015.03.25-01.51.47:849][328]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock1, compiling. 
+[2015.03.25-01.51.47:853][328]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock1, compiling. 
+[2015.03.25-01.51.47:932][329]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock2, compiling. 
+[2015.03.25-01.51.47:950][329]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock2, compiling. 
+[2015.03.25-01.51.47:993][330]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_BridgePillarStone, compiling. 
+[2015.03.25-01.51.48:003][330]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_BridgePillarStone, compiling. 
+[2015.03.25-01.51.48:054][331]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_RockBloc5x10_set6_1, compiling. 
+[2015.03.25-01.51.48:063][331]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_RockBloc5x10_set6_1, compiling. 
+[2015.03.25-01.51.48:095][332]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock4, compiling. 
+[2015.03.25-01.51.48:102][332]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rock4, compiling. 
+[2015.03.25-01.51.48:369][334]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Menirs, compiling. 
+[2015.03.25-01.51.48:379][334]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Menirs, compiling. 
+[2015.03.25-01.51.48:548][335]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Background, compiling. 
+[2015.03.25-01.51.48:573][335]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Background, compiling. 
+[2015.03.25-01.51.48:621][336]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2015.03.25-01.51.48:874][336]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer DefaultMaterial, compiling. 
+[2015.03.25-01.51.57:407][367]LightingResults:Error: Error SM_Helmet01 Object has overlapping UVs.
+[2015.03.25-01.51.57:408][367]LightingResults: Info SM_Helmet01 Lightmap UV are overlapping by 39.2%. Please adjust content - Enable Error Coloring to visualize.
+[2015.03.25-01.52.44:729][496]LogSavePackage: Save=3742.011963ms
+[2015.03.25-01.52.44:729][496]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ascension17_Auto6F23F38E7420EC3105CB3608A4F4534B3.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Maps/Ascension17_Auto6.umap'
+[2015.03.25-01.52.44:744][496]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Ascension17' took 4.008
+[2015.03.25-01.52.44:744][496]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.008
+[2015.03.25-01.52.44:794][496]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Meshes/Snow0064_7_S_NRM] ([1] browsable assets)...
+[2015.03.25-01.52.44:851][496]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SideScrollerBP/Meshes/Snow0064_7_S_NRM.Snow0064_7_S_NRM]
+[2015.03.25-01.52.44:851][496]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Meshes/Snow0064_7_S_NRM]
+[2015.03.25-01.52.45:901][496]LogSavePackage: Save=1045.997314ms
+[2015.03.25-01.52.45:902][496]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Snow0064_7_S_NRM_Auto62EF649E74DD024E82258A28DAAF9D54D.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Meshes/Snow0064_7_S_NRM_Auto6.uasset'
+[2015.03.25-01.52.45:937][496]LogFileHelpers: Auto-saving content packages took 1.195
+[2015.03.25-01.53.50:866][133]Job is a success!
+[2015.03.25-01.53.53:404][134]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2015.03.25-01.53.55:697][134]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1)
+[2015.03.25-01.53.55:701][134]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT)
+[2015.03.25-01.53.55:707][134]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1)
+[2015.03.25-01.53.55:792][134]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT)
+[2015.03.25-01.53.55:971][134]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1)
+[2015.03.25-01.53.55:977][134]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT)
+[2015.03.25-01.53.55:988][134]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1)
+[2015.03.25-01.53.55:990][134]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT)
+[2015.03.25-01.53.56:002][134]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1)
+[2015.03.25-01.53.56:005][134]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT)
+[2015.03.25-01.53.56:022][134]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1)
+[2015.03.25-01.53.56:048][134]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT)
+[2015.03.25-01.53.56:144][134]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1)
+[2015.03.25-01.53.56:160][134]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT)
+[2015.03.25-01.53.56:184][134]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1)
+[2015.03.25-01.53.56:208][134]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT)
+[2015.03.25-01.53.56:264][134]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1)
+[2015.03.25-01.53.56:280][134]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT)
+[2015.03.25-01.53.56:305][134]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1)
+[2015.03.25-01.53.56:340][134]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT)
+[2015.03.25-01.53.56:417][134]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1)
+[2015.03.25-01.53.56:424][134]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT)
+[2015.03.25-01.53.56:442][134]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1)
+[2015.03.25-01.53.56:473][134]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT)
+[2015.03.25-01.53.56:516][134]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1)
+[2015.03.25-01.53.56:613][134]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT)
+[2015.03.25-01.53.56:810][134]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1)
+[2015.03.25-01.53.56:820][134]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT)
+[2015.03.25-01.53.56:840][134]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1)
+[2015.03.25-01.53.56:844][134]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT)
+[2015.03.25-01.53.56:861][134]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1)
+[2015.03.25-01.53.56:881][134]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT)
+[2015.03.25-01.53.56:918][134]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1)
+[2015.03.25-01.53.56:956][134]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT)
+[2015.03.25-01.53.56:997][134]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1)
+[2015.03.25-01.53.57:011][134]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT)
+[2015.03.25-01.53.57:047][134]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1)
+[2015.03.25-01.53.57:075][134]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT)
+[2015.03.25-01.53.57:136][134]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.03.25-01.53.57:304][134]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.03.25-01.53.57:651][134]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1)
+[2015.03.25-01.53.57:670][134]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT)
+[2015.03.25-01.53.57:689][134]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1)
+[2015.03.25-01.53.57:711][134]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT)
+[2015.03.25-01.53.57:746][134]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1)
+[2015.03.25-01.53.57:806][134]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT)
+[2015.03.25-01.53.57:913][134]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1)
+[2015.03.25-01.53.57:990][134]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT)
+[2015.03.25-01.53.58:161][134]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2015.03.25-01.53.58:167][134]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2015.03.25-01.53.58:225][134]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2015.03.25-01.54.03:045][134]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2015.03.25-01.54.03:672][134]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2015.03.25-01.54.03:900][134]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2015.03.25-01.54.03:983][134]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2015.03.25-01.54.04:044][134]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (BGRA8)
+[2015.03.25-01.54.04:053][134]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (BGRA8)
+[2015.03.25-01.54.04:058][134]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (BGRA8)
+[2015.03.25-01.54.04:073][134]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (BGRA8)
+[2015.03.25-01.54.04:116][134]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (BGRA8)
+[2015.03.25-01.54.04:132][134]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (BGRA8)
+[2015.03.25-01.54.04:138][134]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (BGRA8)
+[2015.03.25-01.54.04:142][134]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (BGRA8)
+[2015.03.25-01.54.04:146][134]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2015.03.25-01.54.04:151][134]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (BGRA8)
+[2015.03.25-01.54.04:204][134]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (BGRA8)
+[2015.03.25-01.54.04:216][134]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (BGRA8)
+[2015.03.25-01.54.04:267][134]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (BGRA8)
+[2015.03.25-01.54.04:273][134]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (BGRA8)
+[2015.03.25-01.54.04:524][134]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (BGRA8)
+[2015.03.25-01.54.04:530][134]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (BGRA8)
+[2015.03.25-01.54.04:535][134]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (BGRA8)
+[2015.03.25-01.54.04:636][134]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (BGRA8)
+[2015.03.25-01.54.04:647][134]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (BGRA8)
+[2015.03.25-01.54.04:654][134]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (BGRA8)
+[2015.03.25-01.54.04:713][134]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (BGRA8)
+[2015.03.25-01.54.04:724][134]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (BGRA8)
+[2015.03.25-01.54.04:726][134]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (BGRA8)
+[2015.03.25-01.54.05:458][134]Lightmass on FRANCOIS-PC: 2:11 min total, 596 ms importing, 102 ms setup, 1.12 sec photons, 2:09 min processing, 0 ms extra exporting [189/189 mappings]. Threads: 15:08 min total, 2:37 min processing.
+[2015.03.25-01.54.05:738][134]LogStaticLightingSystem: Illumination: 2:33 min (13.2 sec encoding lightmaps)
+[2015.03.25-01.54.05:738][134]LogStaticLightingSystem: Lightmap texture memory:  24.9 MB (24.8 MB streaming, 0.1 MB non-streaming), 52 textures
+[2015.03.25-01.54.05:738][134]LogStaticLightingSystem: Shadowmap texture memory: 49.6 MB (49.4 MB streaming, 0.2 MB non-streaming), 27 textures
+[2015.03.25-01.54.15:407][135]Cmd: MAP CHECK NOTIFYRESULTS
+[2015.03.25-01.54.15:408][135]MapCheck: New page: Ascension17 - Mar 24, 2015, 5:54:15 PM
+[2015.03.25-01.54.15:578][135]MapCheck:Error: Error BackGroundWall_13 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2015.03.25-01.54.15:578][135]MapCheck:Warning: Warning BackGroundWall_13 Static mesh actor has NULL StaticMesh property 
+[2015.03.25-01.54.15:579][135]MapCheck:Warning: Warning BackGroundWall_13 Static mesh actor has NULL StaticMesh property 
+[2015.03.25-01.54.15:769][135]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 362.588ms to complete.
+[2015.03.25-01.56.33:912][682]LogEditorViewport: Clicking on Actor (LMB): SM_IceSpike01_C (SM_IceSpike69)
+[2015.03.25-01.56.49:273][694]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight13)
+[2015.03.25-01.57.26:216][862]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.57.26:224][862]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.57.27:252][892]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.57.27:266][892]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.57.28:639][931]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2015.03.25-01.57.28:639][931]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.03.25-01.57.28:639][931]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.57.28:639][931]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.57.33:428][159]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.57.33:435][159]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.57.34:836][198]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2015.03.25-01.57.34:836][198]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.03.25-01.57.34:836][198]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.57.34:836][198]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.57.35:105][209]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.57.35:115][209]LogMaterial: 0.000101 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.57.36:499][249]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2015.03.25-01.57.36:499][249]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.03.25-01.57.36:499][249]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.57.36:499][249]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-01.57.51:252][931]LogMaterialEditor: Applying material M_IceSpike
+[2015.03.25-01.57.53:209][931]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.57.53:244][931]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.57.53:335][931]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.57.53:418][931]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.57.53:491][931]LogMaterial: 0.047265 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.57.55:540][984]LogMaterialEditor: Saving and Compiling material M_IceSpike
+[2015.03.25-01.57.58:266][984]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.57.58:299][984]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.57.58:383][984]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.57.58:456][984]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-01.57.58:535][984]LogMaterial: 0.063616 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-01.58.02:799][984]LogSavePackage: Save=564.426208ms
+[2015.03.25-01.58.02:799][984]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/M_IceSpike61A37DB7450E39A3BC84089D1FD2EB17.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/M_IceSpike.uasset'
+[2015.03.25-01.58.02:819][984]MaterialEditorStats: Info Base pass shader with static lighting: 130 instructions
+[2015.03.25-01.58.02:819][984]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 99 instructions
+[2015.03.25-01.58.02:819][984]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-01.58.02:819][984]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.03.25-02.00.00:791][265]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x5_set4_2_C (SM_RockBloc5x5_set4_2)
+[2015.03.25-02.02.55:675][864]LogRenderer:Warning: Reallocating scene render targets to support 1128x712 (Frame:148395).
+[2015.03.25-02.03.25:694][482]LogEditorViewport: Clicking on Actor (LMB): BP_IcePillar_C (BP_IcePillar)
+[2015.03.25-02.03.32:250][789]LogSavePackage: Save=1981.440552ms
+[2015.03.25-02.03.32:250][789]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ascension17_Auto7C51B1A0548F5405AD26AF89026455FC4.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Maps/Ascension17_Auto7.umap'
+[2015.03.25-02.03.32:260][789]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Ascension17' took 2.197
+[2015.03.25-02.03.32:260][789]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.197
+[2015.03.25-02.03.46:249][ 39]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight13)
+[2015.03.25-02.06.27:543][273]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_StoneBridge5x19)
+[2015.03.25-02.06.55:875][539]LogSavePackage: Save=2258.811035ms
+[2015.03.25-02.06.55:875][539]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ascension189449C5B4493280B4034CE2BB6B795DA0.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension18.umap'
+[2015.03.25-02.06.55:968][539]LogFileHelpers: Saving map 'Ascension18' took 4.826
+[2015.03.25-02.07.05:019][150]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight7)
+[2015.03.25-02.07.22:869][380]LogD3D11RHI:Warning: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2015.03.25-02.07.23:404][417]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x10set3_1_C (SM_RockBloc5x10set3_15)
+[2015.03.25-02.07.24:445][497]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_RockBloc5x14)
+[2015.03.25-02.07.25:826][580]LogD3D11RHI:Warning: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2015.03.25-02.07.29:293][830]LogD3D11RHI:Warning: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2015.03.25-02.07.31:164][960]LogD3D11RHI:Warning: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2015.03.25-02.07.36:155][310]Cmd: DELETE
+[2015.03.25-02.07.36:155][310]Cmd: ACTOR DELETE
+[2015.03.25-02.07.36:424][310]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.25-02.07.36:461][310]LogEditorActor: Deleted 1 Actors (0.082 secs)
+[2015.03.25-02.11.53:373][721]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x5_set4_2_C (SM_RockBloc5x5_set4_2)
+[2015.03.25-02.12.06:540][855]Cmd: TRANSACTION UNDO
+[2015.03.25-02.12.06:540][855]LogEditorTransaction: Undo Assign Material to Component (Drag and Drop)
+[2015.03.25-02.12.06:553][855]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.12.06:560][855]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-02.12.07:520][892]LogEditorViewport: Clicking on Actor (LMB): BP_IcePillar_C (BP_IcePillar)
+[2015.03.25-02.12.08:243][932]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2015.03.25-02.12.08:243][932]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.03.25-02.12.08:244][932]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-02.12.08:244][932]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-02.12.09:421][ 35]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_StonePilar33)
+[2015.03.25-02.12.27:585][522]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight13)
+[2015.03.25-02.13.36:331][167]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlock5x10set4_2_C (SM_RockBlock5x10set4_13)
+[2015.03.25-02.14.00:755][629]LogSavePackage: Save=2192.239014ms
+[2015.03.25-02.14.00:755][629]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ascension19B3817DAC425B0E6BA053AE84442EC3BA.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension19.umap'
+[2015.03.25-02.14.00:842][629]LogFileHelpers: Saving map 'Ascension19' took 2.647
+[2015.03.25-02.15.00:542][515]LogD3D11RHI:Warning: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2015.03.25-02.15.02:771][693]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2015.03.25-02.15.05:102][860]LogD3D11RHI:Warning: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2015.03.25-02.15.25:991][457]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_StonePilar12)
+[2015.03.25-02.18.11:895][683]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight14)
+[2015.03.25-02.18.39:837][959]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_RockBloc5x18)
+[2015.03.25-02.18.40:599][ 19]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BackGroundWall2)
+[2015.03.25-02.20.24:237][432]LogMaterialEditor: Applying material M_IceSpike
+[2015.03.25-02.20.25:950][432]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.20.25:980][432]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-02.20.26:068][432]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.20.26:109][432]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.20.26:156][432]LogMaterial: 0.030052 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-02.20.27:686][522]LogMaterialEditor: Saving and Compiling material M_IceSpike
+[2015.03.25-02.20.30:477][522]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.20.30:506][522]LogMaterial: 0.000037 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-02.20.30:618][522]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.20.30:687][522]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.20.30:758][522]LogMaterial: 0.047350 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-02.20.34:514][522]LogSavePackage: Save=448.237122ms
+[2015.03.25-02.20.34:514][522]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/M_IceSpike36357F1E4229D2835AC15B84A450A101.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/M_IceSpike.uasset'
+[2015.03.25-02.20.34:530][522]MaterialEditorStats: Info Base pass shader with static lighting: 130 instructions
+[2015.03.25-02.20.34:530][522]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 99 instructions
+[2015.03.25-02.20.34:530][522]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-02.20.34:530][522]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.03.25-02.21.16:892][ 12]Cmd: TRANSACTION UNDO
+[2015.03.25-02.21.16:892][ 12]LogEditorTransaction: Undo Assign Material to Component (Drag and Drop)
+[2015.03.25-02.21.16:918][ 12]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.21.16:925][ 12]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-02.21.17:340][ 22]Cmd: TRANSACTION UNDO
+[2015.03.25-02.21.17:340][ 22]LogEditorTransaction: Undo Assign Material to Component (Drag and Drop)
+[2015.03.25-02.21.17:394][ 22]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.21.17:408][ 22]LogMaterial: 0.000193 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-02.21.19:912][140]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2015.03.25-02.21.19:912][140]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.03.25-02.21.19:912][140]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-02.21.19:912][140]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-02.21.24:559][511]Cmd: TRANSACTION UNDO
+[2015.03.25-02.21.24:559][511]LogEditorTransaction: Undo Assign Material to Component (Drag and Drop)
+[2015.03.25-02.21.24:585][511]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.21.24:592][511]LogMaterial: 0.000062 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-02.21.26:216][561]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2015.03.25-02.21.26:216][561]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.03.25-02.21.26:217][561]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-02.21.26:217][561]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-02.21.30:873][928]Cmd: TRANSACTION UNDO
+[2015.03.25-02.21.30:873][928]LogEditorTransaction: Undo Assign Material to Component (Drag and Drop)
+[2015.03.25-02.21.30:899][928]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.21.30:907][928]LogMaterial: 0.000071 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-02.21.32:190][968]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2015.03.25-02.21.32:190][968]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.03.25-02.21.32:191][968]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-02.21.32:191][968]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-02.21.32:671][  6]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock16)
+[2015.03.25-02.22.26:549][199]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight15)
+[2015.03.25-02.23.05:949][252]Cmd: TRANSACTION UNDO
+[2015.03.25-02.23.05:949][252]LogEditorTransaction: Undo Move Actors
+[2015.03.25-02.23.06:071][252]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.23.06:079][252]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-02.23.08:227][333]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2015.03.25-02.23.08:227][333]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.03.25-02.23.08:227][333]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-02.23.08:227][333]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-02.25.34:782][419]LogSavePackage: Save=2271.781494ms
+[2015.03.25-02.25.34:782][419]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ascension20C60D1C284303AA8375392B9BEF07A26C.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension20.umap'
+[2015.03.25-02.25.34:849][419]LogFileHelpers: Saving map 'Ascension20' took 2.738
+[2015.03.25-02.27.07:068][689]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight15)
+[2015.03.25-02.27.31:671][409]LogEditorViewport: Clicking on Actor (LMB): SM_iceSpike02_C (SM_iceSpike13)
+[2015.03.25-02.27.32:191][447]LogEditorViewport: Clicking on Actor (LMB): SM_IceSpike01_C (SM_IceSpike15)
+[2015.03.25-02.30.10:940][218]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight18)
+[2015.03.25-02.30.17:482][678]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight18)
+[2015.03.25-02.30.28:052][421]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight20)
+[2015.03.25-02.30.30:660][604]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BackGroundWall2)
+[2015.03.25-02.30.31:781][681]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight18)
+[2015.03.25-02.30.44:782][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BackGroundWall2)
+[2015.03.25-02.30.46:366][695]Cmd: TRANSACTION UNDO
+[2015.03.25-02.30.46:366][695]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.25-02.30.46:385][695]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.30.46:393][695]LogMaterial: 0.000080 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-02.30.47:931][746]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight20)
+[2015.03.25-02.30.48:509][766]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2015.03.25-02.30.48:509][766]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.03.25-02.30.48:509][766]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-02.30.48:509][766]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-02.31.31:114][240]LogSavePackage: Save=2335.400146ms
+[2015.03.25-02.31.31:114][240]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ascension217D0B02714EF7AAA2EA39CC9E1833D4C1.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension21.umap'
+[2015.03.25-02.31.31:338][240]LogFileHelpers: Saving map 'Ascension21' took 2.938
+[2015.03.25-02.32.19:829][527]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight14)
+[2015.03.25-02.32.43:389][923]LogSavePackage: Save=2486.040771ms
+[2015.03.25-02.32.43:389][923]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ascension21C3BC1CBF4EE7E31660911ABFFD5BBA3E.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension21.umap'
+[2015.03.25-02.38.19:740][707]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x10set3_1_C (SM_RockBloc5x10set3_9)
+[2015.03.25-02.38.39:754][221]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlockSmoothTopLeft_5x10set3_1_C (SM_RockBlockSmoothTopLeft_5x10set3_3)
+[2015.03.25-02.38.40:959][314]Cmd: DELETE
+[2015.03.25-02.38.40:959][314]Cmd: ACTOR DELETE
+[2015.03.25-02.38.40:962][314]LogEditorActor: Deleted Actor: SM_RockBlockSmoothTopLeft_5x10set3_1_C
+[2015.03.25-02.38.40:980][314]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2015.03.25-02.38.41:769][384]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x10set3_1_C (SM_RockBloc5x10set3_23)
+[2015.03.25-02.38.50:878][ 78]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_RockBlockSmoothTopRight_5x10set2_1_C (SM_RockBlockSmoothTopRight_5x10set2_3)
+[2015.03.25-02.38.52:246][182]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x10set3_1_C (SM_RockBloc5x10set3_23)
+[2015.03.25-02.39.01:631][892]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlock5x10set5_3_C (SM_RockBlock5x10set5_8)
+[2015.03.25-02.39.05:328][159]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlockSmoothTopRight_5x10set2_1_C (SM_RockBlockSmoothTopRight_5x10set2_3)
+[2015.03.25-02.39.07:366][313]Cmd: DELETE
+[2015.03.25-02.39.07:366][313]Cmd: ACTOR DELETE
+[2015.03.25-02.39.07:368][313]LogEditorActor: Deleted Actor: SM_RockBlockSmoothTopRight_5x10set2_1_C
+[2015.03.25-02.39.07:384][313]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2015.03.25-02.39.08:014][368]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlock5x10set5_3_C (SM_RockBlock5x10set5_11)
+[2015.03.25-02.39.24:611][474]LogSavePackage: Save=1964.367310ms
+[2015.03.25-02.39.24:611][474]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ascension21D68CE4204C9C6F9829EF7DB69C1B64A3.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension21.umap'
+[2015.03.25-02.39.27:076][656]LogEditorViewport: Clicking on Actor (LMB): SM_Rock1_C (SM_Rock41)
+[2015.03.25-02.39.50:688][462]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x10Set6_1_C (SM_RockBloc5x10Set6_9)
+[2015.03.25-02.40.11:975][111]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlock5x10set5_3_C (SM_RockBlock5x10set5_12)
+[2015.03.25-02.40.41:318][325]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlockSmoothTopLeft_5x10set5_3_C (SM_RockBlockSmoothTopLeft_5x10set5_9)
+[2015.03.25-02.40.43:900][518]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlockSmoothTopRight_5x10set3_1_C (SM_RockBlockSmoothTopRight_5x10set3_2)
+[2015.03.25-02.41.09:994][217]LogSavePackage: Save=2329.122314ms
+[2015.03.25-02.41.09:994][217]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ascension214041577945886FC61695769B21C58660.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension21.umap'
+[2015.03.25-02.41.14:891][610]LogMaterialEditor: Applying material M_IceSpike
+[2015.03.25-02.41.16:795][610]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.41.16:824][610]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-02.41.16:916][610]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.41.16:971][610]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.41.17:049][610]LogMaterial: 0.053571 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-02.41.17:953][659]LogMaterialEditor: Saving and Compiling material M_IceSpike
+[2015.03.25-02.41.21:362][659]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.41.21:410][659]LogMaterial: 0.000064 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-02.41.21:517][659]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.41.21:590][659]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-02.41.21:662][659]LogMaterial: 0.050100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-02.41.25:952][659]LogSavePackage: Save=533.999939ms
+[2015.03.25-02.41.25:952][659]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/M_IceSpike4695736F4839C28902865D8CBF674F7B.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/M_IceSpike.uasset'
+[2015.03.25-02.41.25:968][659]MaterialEditorStats: Info Base pass shader with static lighting: 130 instructions
+[2015.03.25-02.41.25:968][659]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 99 instructions
+[2015.03.25-02.41.25:968][659]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-02.41.25:968][659]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.03.25-02.41.42:254][808]LogRenderer:Warning: Reallocating scene render targets to support 1128x808 (Frame:262709).
+[2015.03.25-02.44.50:031][355]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock42)
+[2015.03.25-02.45.42:532][  0]LogEditorViewport: Clicking on Actor (LMB): SM_Rock3_C (SM_Rock30)
+[2015.03.25-02.45.42:975][ 37]LogEditorViewport: Clicking on Actor (LMB): SM_Rock1_C (SM_Rock31)
+[2015.03.25-02.46.05:038][950]LogD3D11RHI:Warning: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2015.03.25-02.47.36:180][707]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlock5x10set5_3_C (SM_RockBlock5x10set5_12)
+[2015.03.25-02.47.36:862][771]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_RockBloc5x10set2_1_C (SM_RockBloc5x10set2_9)
+[2015.03.25-02.47.53:560][437]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x10set3_1_C (SM_RockBloc5x10set3_20)
+[2015.03.25-02.48.13:720][313]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Menir_5)
+[2015.03.25-02.48.50:344][564]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2015.03.25-02.49.09:215][188]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlockSmoothTopLeft_5x10set6_1_C (SM_RockBlockSmoothTopLeft_5x10set6_4)
+[2015.03.25-02.51.08:862][ 12]LogSavePackage: Save=2042.627197ms
+[2015.03.25-02.51.08:862][ 12]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ascension21_Auto8C878AC824186B61D577450BD82E4E399.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Maps/Ascension21_Auto8.umap'
+[2015.03.25-02.51.08:870][ 12]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Ascension21' took 2.170
+[2015.03.25-02.51.08:870][ 12]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.170
+[2015.03.25-03.34.33:352][907]LogRenderer:Warning: Reallocating scene render targets to support 1152x808 (Frame:305878).
+[2015.03.25-03.34.45:931][ 79]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 ../../../../../../Users/Francois/Desktop/Projet_ConceptionJeu_Ascension_WorkingFiles/CasqueVikingEnfoui/SM_Helmet01.FBX)
+[2015.03.25-03.34.45:969][ 79]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.03.25-03.34.45:969][ 79]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.03.25-03.34.45:969][ 79]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.03.25-03.34.45:969][ 79]LogFbx: ItemName: Model, ItemCount : 14
+[2015.03.25-03.34.45:969][ 79]LogFbx: ItemName: Geometry, ItemCount : 14
+[2015.03.25-03.34.45:969][ 79]LogFbx: ItemName: Material, ItemCount : 1
+[2015.03.25-03.34.47:862][ 79]LogFbx: Loading FBX Scene from ../../../../../../Users/Francois/Desktop/Projet_ConceptionJeu_Ascension_WorkingFiles/CasqueVikingEnfoui/SM_Helmet01.FBX
+[2015.03.25-03.34.47:895][ 79]LogFbx: FBX Scene Loaded Succesfully
+[2015.03.25-03.34.47:948][ 79]LogFbx: == Initial material list:
+[2015.03.25-03.34.47:948][ 79]LogFbx: 0: Material #134
+[2015.03.25-03.34.47:948][ 79]LogFbx: == After sorting:
+[2015.03.25-03.34.47:948][ 79]LogFbx: 0: Material #134
+[2015.03.25-03.34.47:948][ 79]LogFbx: == Mapping table:
+[2015.03.25-03.34.47:948][ 79]LogFbx:   sort 0 -> 0
+[2015.03.25-03.34.47:960][ 79]LogStaticMesh: Building static mesh SM_Helmet01...
+[2015.03.25-03.34.47:986][ 79]LogStaticMesh: Built static mesh [26.235571ms] /Game/SideScrollerBP/Meshes/SM_Helmet01.SM_Helmet01
+[2015.03.25-03.34.47:995][ 79]LogStaticMesh:Warning: SM_Helmet01 has degenerate tangent bases which will result in incorrect shading. 
+[2015.03.25-03.34.52:845][ 79]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.25-03.34.52:845][ 79]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.25-03.34.55:202][ 80]LogSavePackage: Save=1871.746582ms
+[2015.03.25-03.34.55:202][ 80]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ascension21_Auto9CC9F566145E02C581CA2C2AD77411F19.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Maps/Ascension21_Auto9.umap'
+[2015.03.25-03.34.55:210][ 80]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Ascension21' took 2.017
+[2015.03.25-03.34.55:210][ 80]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.017
+[2015.03.25-03.34.55:250][ 80]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Meshes/SM_Helmet01] ([1] browsable assets)...
+[2015.03.25-03.34.55:275][ 80]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SideScrollerBP/Meshes/SM_Helmet01.SM_Helmet01]
+[2015.03.25-03.34.55:275][ 80]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Meshes/SM_Helmet01]
+[2015.03.25-03.34.55:657][ 80]LogSavePackage: Save=371.366089ms
+[2015.03.25-03.34.55:658][ 80]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/SM_Helmet01_Auto910678F3A45660DD4E151F8B26D9872CA.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Meshes/SM_Helmet01_Auto9.uasset'
+[2015.03.25-03.34.55:665][ 80]LogFileHelpers: Auto-saving content packages took 0.456
+[2015.03.25-03.35.02:710][561]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.25-03.35.02:722][561]PIE: New page: PIE session: Ascension21 (Mar 24, 2015, 7:35:02 PM)
+[2015.03.25-03.35.02:840][561]LogPlayLevel: PIE: StaticDuplicateObject took: (0.117936s)
+[2015.03.25-03.35.02:841][561]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2015.03.25-03.35.02:842][561]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Ascension21.Ascension21 to /Game/SideScrollerBP/Maps/UEDPIE_0_Ascension21.Ascension21 (0.119144s)
+[2015.03.25-03.35.03:128][561]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.03.25-03.35.03:181][561]LogAIModule: Creating AISystem for world Ascension21
+[2015.03.25-03.35.03:292][561]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Ascension21.Ascension21 up for play (max tick rate 0) at 2015.03.24-23.35.03
+[2015.03.25-03.35.03:364][561]LogWorld: Bringing up level for play took: 0.182047
+[2015.03.25-03.35.03:562][561]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Ascension21 0.158
+[2015.03.25-03.35.52:086][ 72]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003C18540
+[2015.03.25-03.35.53:902][200]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Helmet01)
+[2015.03.25-03.36.09:336][343]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.25-03.36.09:336][343]PIE: New page: PIE session: Ascension21 (Mar 24, 2015, 7:36:09 PM)
+[2015.03.25-03.36.09:382][343]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046242s)
+[2015.03.25-03.36.09:383][343]LogPlayLevel: PIE: World Init took: (0.001022s)
+[2015.03.25-03.36.09:384][343]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Ascension21.Ascension21 to /Game/SideScrollerBP/Maps/UEDPIE_0_Ascension21.Ascension21 (0.047631s)
+[2015.03.25-03.36.09:420][343]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.03.25-03.36.09:423][343]LogAIModule: Creating AISystem for world Ascension21
+[2015.03.25-03.36.09:529][343]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Ascension21.Ascension21 up for play (max tick rate 0) at 2015.03.24-23.36.09
+[2015.03.25-03.36.09:546][343]LogWorld: Bringing up level for play took: 0.122884
+[2015.03.25-03.36.09:548][343]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Ascension21 0.267
+[2015.03.25-03.36.23:950][727]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F2611C0
+[2015.03.25-03.36.25:613][849]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.25-03.36.25:614][849]PIE: New page: PIE session: Ascension21 (Mar 24, 2015, 7:36:25 PM)
+[2015.03.25-03.36.25:660][849]LogPlayLevel: PIE: StaticDuplicateObject took: (0.046104s)
+[2015.03.25-03.36.25:661][849]LogPlayLevel: PIE: World Init took: (0.000757s)
+[2015.03.25-03.36.25:661][849]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Ascension21.Ascension21 to /Game/SideScrollerBP/Maps/UEDPIE_0_Ascension21.Ascension21 (0.047214s)
+[2015.03.25-03.36.25:699][849]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.03.25-03.36.25:701][849]LogAIModule: Creating AISystem for world Ascension21
+[2015.03.25-03.36.25:808][849]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Ascension21.Ascension21 up for play (max tick rate 0) at 2015.03.24-23.36.25
+[2015.03.25-03.36.25:825][849]LogWorld: Bringing up level for play took: 0.123623
+[2015.03.25-03.36.25:828][849]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Ascension21 0.578
+[2015.03.25-03.37.02:833][469]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003C19760
+[2015.03.25-03.37.06:160][710]LogEditorViewport: Clicking on Actor (LMB): SideScrollerCharacter_C (SideScrollerCharacter)
+[2015.03.25-03.37.22:298][790]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Helmet01)
+[2015.03.25-03.37.23:906][904]Cmd: TRANSACTION UNDO
+[2015.03.25-03.37.23:906][904]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.25-03.37.23:958][904]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.37.23:964][904]LogMaterial: 0.000065 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.37.24:987][933]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Helmet01)
+[2015.03.25-03.37.25:603][956]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2015.03.25-03.37.25:603][956]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.03.25-03.37.25:603][956]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-03.37.25:603][956]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-03.39.06:954][844]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.06:954][844]LogEditorTransaction: Undo Move Actors
+[2015.03.25-03.39.06:982][844]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.06:989][844]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.07:439][856]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.07:439][856]LogEditorTransaction: Undo Move Actors
+[2015.03.25-03.39.07:507][856]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.07:518][856]LogMaterial: 0.000077 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.08:009][874]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.08:010][874]LogEditorTransaction: Undo Move Actors
+[2015.03.25-03.39.08:053][874]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.08:065][874]LogMaterial: 0.000039 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.08:516][893]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.08:516][893]LogEditorTransaction: Undo Rotate Actors
+[2015.03.25-03.39.08:563][893]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.08:575][893]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.09:342][923]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.09:342][923]LogEditorTransaction: Undo Move Actors
+[2015.03.25-03.39.09:393][923]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.09:405][923]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.09:803][938]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.09:803][938]LogEditorTransaction: Undo Move Actors
+[2015.03.25-03.39.09:846][938]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.09:860][938]LogMaterial: 0.000054 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.10:292][955]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.10:292][955]LogEditorTransaction: Undo Move Actors
+[2015.03.25-03.39.10:336][955]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.10:347][955]LogMaterial: 0.000061 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.10:923][979]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.10:923][979]LogEditorTransaction: Undo Move Actors
+[2015.03.25-03.39.10:968][979]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.10:980][979]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.11:850][ 16]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.11:850][ 16]LogEditorTransaction: Undo Move Actors
+[2015.03.25-03.39.11:899][ 16]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.11:909][ 16]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.12:384][ 35]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.12:384][ 35]LogEditorTransaction: Undo Rotate Actors
+[2015.03.25-03.39.12:433][ 35]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.12:448][ 35]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.13:413][ 76]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.13:413][ 76]LogEditorTransaction: Undo Rotate Actors
+[2015.03.25-03.39.13:465][ 76]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.13:479][ 76]LogMaterial: 0.000049 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.14:078][100]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.14:078][100]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.25-03.39.14:174][100]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.14:184][100]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.14:849][122]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.14:849][122]LogEditorTransaction: Undo Move Actors
+[2015.03.25-03.39.14:956][122]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.14:972][122]LogMaterial: 0.000059 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.16:021][164]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.16:021][164]LogEditorTransaction: Undo Move Actors
+[2015.03.25-03.39.16:121][164]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.16:135][164]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.16:481][176]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.16:481][176]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.25-03.39.16:559][176]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.16:573][176]LogMaterial: 0.000056 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.17:836][226]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2015.03.25-03.39.17:836][226]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.03.25-03.39.17:836][226]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-03.39.17:836][226]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-03.39.18:302][258]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.18:302][258]LogEditorTransaction: Undo Rotate Actors
+[2015.03.25-03.39.18:329][258]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.18:336][258]LogMaterial: 0.000066 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.18:537][266]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.18:537][266]LogEditorTransaction: Undo Move Actors
+[2015.03.25-03.39.18:591][266]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.18:606][266]LogMaterial: 0.000207 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.18:742][269]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.18:742][269]LogEditorTransaction: Undo Rotate Actors
+[2015.03.25-03.39.18:787][269]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.18:798][269]LogMaterial: 0.000068 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.19:033][276]Cmd: TRANSACTION UNDO
+[2015.03.25-03.39.19:033][276]LogEditorTransaction: Undo Rotate Actors
+[2015.03.25-03.39.19:080][276]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.39.19:093][276]LogMaterial: 0.000050 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.39.20:415][332]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2015.03.25-03.39.20:415][332]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.03.25-03.39.20:415][332]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-03.39.20:415][332]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-03.40.01:273][  9]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0137 seconds. Added 1 classes and 2 folders.
+[2015.03.25-03.40.02:924][150]LogSavePackage: Save=160.172897ms
+[2015.03.25-03.40.02:924][150]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/T_Ice01_D289E056A4E384F3D99471E8D71131177.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/T_Ice01_D.uasset'
+[2015.03.25-03.40.14:669][645]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.40.14:698][645]LogMaterial: 0.000072 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.40.14:766][645]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.40.14:809][645]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.40.14:849][645]LogMaterial: 0.026767 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.40.19:694][874]LogSavePackage: Save=415.794312ms
+[2015.03.25-03.40.19:694][874]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Snow0064_72_S_NRM6C8E1F984CADCFD69169D89CD09CEB2D.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/Snow0064_72_S_NRM.uasset'
+[2015.03.25-03.40.23:170][149]LogSavePackage: Save=196.570892ms
+[2015.03.25-03.40.23:170][149]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Snow0064_7_S_NRMC920A8A44210A689367B358B1B0FB0A0.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/Snow0064_7_S_NRM.uasset'
+[2015.03.25-03.40.28:786][496]LogRenderer:Warning: Reallocating scene render targets to support 1328x928 (Frame:327665).
+[2015.03.25-03.40.40:274][838]LogSavePackage: Save=4.219679ms
+[2015.03.25-03.40.40:274][838]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/SM_Helmet011BCB07CF44256F2B84650B94BDFBB783.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/SM_Helmet01.uasset'
+[2015.03.25-03.40.48:349][479]LogSavePackage: Save=88.026917ms
+[2015.03.25-03.40.48:349][479]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ice0044_42_S_NRM5F186E634CE2AAFBBB2CC49604A04202.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/Ice0044_42_S_NRM.uasset'
+[2015.03.25-03.40.55:315][ 48]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.03.25-03.40.55:356][ 48]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.03.25-03.40.55:492][ 48]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.03.25-03.40.55:492][ 48]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.03.25-03.40.55:492][ 48]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2015.03.25-03.40.55:492][ 48]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2015.03.25-03.40.55:513][ 48]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.03.25-03.40.55:524][ 48]LogMaterial: 0.000051 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.40.55:551][ 48]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.03.25-03.40.55:556][ 48]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.03.25-03.40.55:562][ 48]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2015.03.25-03.40.55:567][ 48]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2015.03.25-03.40.55:573][ 48]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.03.25-03.40.55:578][ 48]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2015.03.25-03.40.55:583][ 48]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2015.03.25-03.40.55:588][ 48]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2015.03.25-03.40.55:595][ 48]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_5, compiling. 
+[2015.03.25-03.40.57:353][166]MaterialEditorStats: Info Base pass shader with static lighting: 105 instructions
+[2015.03.25-03.40.57:353][166]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 74 instructions
+[2015.03.25-03.40.57:353][166]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-03.40.57:353][166]MaterialEditorStats: Info Texture samplers: 6/16
+[2015.03.25-03.41.05:065][881]LogMaterialEditor: Saving and Compiling material M_IceSpike
+[2015.03.25-03.41.06:805][881]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2015.03.25-03.41.06:836][881]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.41.06:909][881]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.41.06:960][881]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.25-03.41.07:034][881]LogMaterial: 0.049767 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.25-03.41.10:861][881]LogSavePackage: Save=550.683105ms
+[2015.03.25-03.41.10:861][881]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/M_IceSpike634C5BE94D767BAF4774DD8BF4EB6B65.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/M_IceSpike.uasset'
+[2015.03.25-03.41.10:876][881]MaterialEditorStats: Info Base pass shader with static lighting: 130 instructions
+[2015.03.25-03.41.10:876][881]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 99 instructions
+[2015.03.25-03.41.10:876][881]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.25-03.41.10:876][881]MaterialEditorStats: Info Texture samplers: 7/16
+[2015.03.25-03.41.25:289][568]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000695B8A40
+[2015.03.25-03.41.25:289][568]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000590C9440
+[2015.03.25-03.41.25:290][568]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004036C180
+[2015.03.25-03.41.27:402][568]LogSavePackage: Save=2086.700928ms
+[2015.03.25-03.41.27:402][568]LogSavePackage: Moving '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Saved/Ascension227FBBFD524A6062F5A0E0D6AAECC4B277.tmp' to '../../../../../../Users/Francois/Desktop/Projet_Ascension/24Mars2015ProjetAscension2/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension22.umap'
+[2015.03.25-03.41.27:468][568]LogFileHelpers: Saving map 'Ascension22' took 2.576
+[2015.03.25-03.41.31:871][809]Cmd: QUIT_EDITOR
+[2015.03.25-03.41.32:383][809]LogExit: Preparing to exit.
+[2015.03.25-03.41.33:262][809]LogExit: Editor shut down
+[2015.03.25-03.41.33:263][809]LogExit: Transaction tracking system shut down
+[2015.03.25-03.41.33:268][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001663EE80
+[2015.03.25-03.41.33:268][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000158237E0
+[2015.03.25-03.41.33:268][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000015823380
+[2015.03.25-03.41.33:270][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001AA153A0
+[2015.03.25-03.41.33:270][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000B919AAC0
+[2015.03.25-03.41.33:553][809]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000059C2D120
+[2015.03.25-03.41.33:553][809]LogExit: Object subsystem successfully closed.
+[2015.03.25-03.41.33:777][809]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (180)
+[2015.03.25-03.41.33:777][809]LogModuleManager: Shutting down and abandoning module TextureEditor (179)
+[2015.03.25-03.41.33:796][809]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
+[2015.03.25-03.41.33:796][809]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.03.25-03.41.33:797][809]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.03.25-03.41.33:797][809]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.03.25-03.41.33:797][809]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.03.25-03.41.33:797][809]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.03.25-03.41.33:811][809]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.03.25-03.41.33:811][809]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.03.25-03.41.33:811][809]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.03.25-03.41.33:812][809]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.03.25-03.41.33:813][809]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.03.25-03.41.33:813][809]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.03.25-03.41.33:813][809]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.03.25-03.41.33:813][809]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.03.25-03.41.33:819][809]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.03.25-03.41.33:819][809]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.03.25-03.41.33:819][809]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.03.25-03.41.33:819][809]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.03.25-03.41.33:819][809]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.03.25-03.41.33:819][809]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.03.25-03.41.33:819][809]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.03.25-03.41.33:819][809]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.03.25-03.41.33:819][809]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.03.25-03.41.33:820][809]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.03.25-03.41.33:820][809]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.03.25-03.41.33:820][809]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.03.25-03.41.33:820][809]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.03.25-03.41.33:820][809]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.03.25-03.41.33:820][809]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.03.25-03.41.33:820][809]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.03.25-03.41.33:820][809]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.03.25-03.41.33:820][809]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.03.25-03.41.33:820][809]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.03.25-03.41.33:894][809]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.03.25-03.41.33:894][809]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.03.25-03.41.33:894][809]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.03.25-03.41.33:895][809]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.03.25-03.41.33:896][809]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.03.25-03.41.33:899][809]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.03.25-03.41.33:899][809]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.03.25-03.41.33:899][809]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.03.25-03.41.33:899][809]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.03.25-03.41.33:899][809]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.03.25-03.41.33:922][809]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.03.25-03.41.33:994][809]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.03.25-03.41.34:062][809]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.03.25-03.41.34:062][809]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.03.25-03.41.34:111][809]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.03.25-03.41.34:111][809]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.03.25-03.41.34:174][809]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.03.25-03.41.34:174][809]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.03.25-03.41.34:174][809]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.03.25-03.41.34:174][809]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.03.25-03.41.34:174][809]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.03.25-03.41.34:174][809]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.03.25-03.41.34:254][809]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.03.25-03.41.34:350][809]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.03.25-03.41.34:350][809]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.03.25-03.41.34:369][809]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.03.25-03.41.34:369][809]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.03.25-03.41.34:369][809]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.03.25-03.41.34:369][809]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.03.25-03.41.34:370][809]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.03.25-03.41.34:685][809]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.03.25-03.41.34:693][809]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.03.25-03.41.34:793][809]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.03.25-03.41.34:835][809]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.03.25-03.41.34:839][809]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.03.25-03.41.34:839][809]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.03.25-03.41.34:840][809]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.03.25-03.41.34:840][809]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.03.25-03.41.34:840][809]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.03.25-03.41.34:840][809]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.03.25-03.41.34:840][809]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.03.25-03.41.34:840][809]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.03.25-03.41.34:840][809]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.03.25-03.41.34:840][809]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.03.25-03.41.34:840][809]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.03.25-03.41.34:840][809]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.03.25-03.41.34:840][809]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.03.25-03.41.34:840][809]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.03.25-03.41.34:840][809]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.03.25-03.41.34:848][809]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.03.25-03.41.34:848][809]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.03.25-03.41.34:848][809]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.03.25-03.41.34:848][809]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.03.25-03.41.34:848][809]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.03.25-03.41.34:848][809]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.03.25-03.41.34:848][809]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.03.25-03.41.34:848][809]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.03.25-03.41.34:848][809]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.03.25-03.41.34:848][809]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.03.25-03.41.34:907][809]LogDerivedDataCache: Shutdown
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.03.25-03.41.34:907][809]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.03.25-03.41.34:908][809]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.03.25-03.41.34:908][809]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.03.25-03.41.34:908][809]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.03.25-03.41.34:908][809]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.03.25-03.41.34:908][809]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.03.25-03.41.34:908][809]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.03.25-03.41.34:908][809]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.03.25-03.41.34:908][809]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.25-03.41.34:908][809]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.25-03.41.34:908][809]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.25-03.41.34:908][809]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.25-03.41.34:908][809]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.25-03.41.34:908][809]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.25-03.41.34:913][809]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.25-03.41.34:913][809]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.25-03.41.34:913][809]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.25-03.41.34:913][809]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.25-03.41.34:913][809]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.25-03.41.34:913][809]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.25-03.41.34:914][809]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.25-03.41.34:914][809]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.25-03.41.34:914][809]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.25-03.41.34:915][809]LogExit: Exiting.
+[2015.03.25-03.41.34:953][809]Log file closed, 03/24/15 23:41:34

@@ -1,0 +1,1174 @@
+﻿Log file open, 03/24/15 13:50:02
+LogInit:Display: Running engine for game: Projet_Ascension
+LogInit: Version: 4.7.3-2479750+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Mar 15 2015 23:20:45
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Unreal Engine/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.03.24-17.50.02:154][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.03.24-17.50.02:203][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.03.24-17.50.02:213][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.03.24-17.50.02:221][  0]LogInit: Object subsystem initialized
+[2015.03.24-17.50.02:222][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.03.24-17.50.02:222][  0]LogConsoleResponse:Warning:   Found in ini file 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.24-17.50.02:222][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.03.24-17.50.02:222][  0]LogConsoleResponse:Warning:   Found in ini file 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.24-17.50.02:222][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.03.24-17.50.02:222][  0]LogConsoleResponse:Warning:   Found in ini file 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.03.24-17.50.02:222][  0]LogInit: Selected Device Profile: [Windows]
+[2015.03.24-17.50.02:222][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.03.24-17.50.02:237][  0]LogInit: Computer: 338-D3
+[2015.03.24-17.50.02:237][  0]LogInit: User: fgregoire
+[2015.03.24-17.50.02:237][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.03.24-17.50.02:237][  0]LogInit: High frequency timer resolution =3.312714 MHz
+[2015.03.24-17.50.02:238][  0]LogMemory: Memory total: Physical=31.9GB (32GB approx) Virtual=8192.0GB
+[2015.03.24-17.50.02:238][  0]LogMemory: Platform Memory Stats for Windows
+[2015.03.24-17.50.02:238][  0]LogMemory: Process Physical Memory: 48.46 MB used, 48.46 MB peak
+[2015.03.24-17.50.02:238][  0]LogMemory: Process Virtual Memory: 28.38 MB used, 28.38 MB peak
+[2015.03.24-17.50.02:238][  0]LogMemory: Physical Memory: 4654.85 MB used, 32703.79 MB total
+[2015.03.24-17.50.02:238][  0]LogMemory: Virtual Memory: 280.20 MB used, 8388608.00 MB total
+[2015.03.24-17.50.02:271][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 760 (Feature Level 11_0)
+[2015.03.24-17.50.02:271][  0]LogD3D11RHI: Adapter has 1990MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 1 output[s]
+[2015.03.24-17.50.02:271][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.03.24-17.50.02:274][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.03.24-17.50.02:280][  0]LogD3D11RHI: Async texture creation enabled
+[2015.03.24-17.50.02:332][  0]LogTextLocalizationManager: The requested culture ('fr_CA') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.03.24-17.50.02:400][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.03.24-17.50.02:401][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Unreal Engine/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.03.24-17.50.02:471][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.03.24-17.50.04:323][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.24-17.50.04:714][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.24-17.50.04:760][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.03.24-17.50.04:791][  0]LogDerivedDataCache: Loaded boot cache 0.03s 39MB C:/Users/fgregoire/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.24-17.50.04:791][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/fgregoire/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.03.24-17.50.04:792][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file H:/Projet_AscensionV1/Projet_Ascension/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.03.24-17.50.04:792][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.03.24-17.50.04:891][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.03.24-17.50.04:902][  0]LogDerivedDataCache: Using Local data cache path C:/Users/fgregoire/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.03.24-17.50.05:126][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.03.24-17.50.05:126][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.03.24-17.50.05:402][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.03.24-17.50.05:458][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.03.24-17.50.06:026][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.03.24-17.50.06:203][  0]SourceControl: Info Source control is disabled
+[2015.03.24-17.50.06:203][  0]SourceControl: Info Source control is disabled
+[2015.03.24-17.50.06:203][  0]SourceControl: Info Source control is disabled
+[2015.03.24-17.50.06:203][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.03.24-17.50.06:203][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.03.24-17.50.06:210][  0]SourceControl: Info Source control is disabled
+[2015.03.24-17.50.06:349][  0]LogObj: 24231 objects as part of root set at end of initial load.
+[2015.03.24-17.50.06:349][  0]LogUObjectAllocator: 5136432 out of 0 bytes used by permanent object pool.
+[2015.03.24-17.50.06:413][  0]LogEngine: Initializing Engine...
+[2015.03.24-17.50.09:527][  0]LogInit: No audio devices found!
+[2015.03.24-17.50.09:556][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.03.24-17.50.09:574][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/fgregoire/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.03.24-17.50.09:576][  0]LogInit: Texture streaming: Enabled
+[2015.03.24-17.50.09:641][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.03.24-17.50.09:641][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.24-17.50.09:641][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.3-2479750+++depot+UE4-Releases+4.7
+[2015.03.24-17.50.09:641][  0]LogAnalytics: SetUserId aae5c24a41f85f56c10db2b743900f2b|be9063669c854a3c8af4af24edce75df|6d5501f1-17f9-41c9-bf63-71896672f2e3
+[2015.03.24-17.50.09:642][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.03.24-17.50.09:656][  0]LogInit: Transaction tracking system initialized
+[2015.03.24-17.50.09:780][  0]BlueprintLog: New page: Editor Load
+[2015.03.24-17.50.09:807][  0]LogAssetRegistry: FAssetRegistry took 0.0095 seconds to start up
+[2015.03.24-17.50.09:807][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.03.24-17.50.10:216][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.24-17.50.10:510][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.03.24-17.50.10:703][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.03.24-17.50.10:704][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.03.24-17.50.10:708][  0]LogConsoleResponse:Display: 
+[2015.03.24-17.50.10:806][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.03.24-17.50.10:911][  0]SourceControl: Info Source control is disabled
+[2015.03.24-17.50.10:911][  0]Cmd: MAP LOAD FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.24-17.50.10:914][  0]LightingResults: New page: Lighting Build
+[2015.03.24-17.50.10:923][  0]MapCheck: New page: Map Check
+[2015.03.24-17.50.10:923][  0]LightingResults: New page: Lighting Build
+[2015.03.24-17.50.10:930][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000003FF6520
+[2015.03.24-17.50.12:080][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.24-17.50.12:877][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2015.03.24-17.50.12:878][  0]Cmd: MAP CHECKDEP
+[2015.03.24-17.50.12:878][  0]MapCheck: New page: SideScrollerExampleMap - Mar 24, 2015, 9:50:12 AM
+[2015.03.24-17.50.12:945][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.553ms to complete.
+[2015.03.24-17.50.12:945][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 2.033
+[2015.03.24-17.50.13:084][  0]LogCollectionManager: Loaded 0 collections in 0.002575 seconds
+[2015.03.24-17.50.13:091][  0]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 1696 classes and 261 folders.
+[2015.03.24-17.50.13:118][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2015.03.24-17.50.13:159][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.03.24-17.50.13:160][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.03.24-17.50.13:192][  0]LogLoad: Full Startup: 12.77 seconds (BP compile: 0.31 seconds)
+[2015.03.24-17.50.13:611][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-17.50.13:778][  0]LogRenderer:Warning: Reallocating scene render targets to support 1136x560 (Frame:2).
+[2015.03.24-17.50.14:624][  3]LogAssetRegistry: Asset discovery search completed in 4.8265 seconds
+[2015.03.24-17.50.31:003][421]Cmd: MAP LOAD FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension5.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.03.24-17.50.31:049][421]LightingResults: New page: Lighting Build
+[2015.03.24-17.50.31:085][421]LoadErrors: New page: Loading map: Ascension5.umap
+[2015.03.24-17.50.31:087][421]MapCheck: New page: Map Check
+[2015.03.24-17.50.31:087][421]LightingResults: New page: Lighting Build
+[2015.03.24-17.50.31:093][421]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E123880
+[2015.03.24-17.50.31:996][421]LogTexture:Display: Building textures: T_RockBloc5x10_set2_1_N (BC5)
+[2015.03.24-17.50.32:379][421]LogMaterial: Missing cached shader map for material M_RockBloc5x10_set2_1, compiling. 
+[2015.03.24-17.50.32:570][421]LogTexture:Display: Building textures: T_RockBloc5x10_set6_1_N (BC5)
+[2015.03.24-17.50.32:843][421]LogMaterial: Missing cached shader map for material M_RockBloc5x10_set6_1, compiling. 
+[2015.03.24-17.50.32:859][421]LogStaticMesh: Building static mesh SM_RockBloc5x10_NoSmoot...
+[2015.03.24-17.50.32:873][421]LogStaticMesh: Built static mesh [14.020528ms] /Game/SideScrollerBP/Meshes/SM_RockBloc5x10_NoSmoot.SM_RockBloc5x10_NoSmoot
+[2015.03.24-17.50.33:080][421]LogTexture:Display: Building textures: T_RockBloc5x10_set3_1_N (BC5)
+[2015.03.24-17.50.33:608][421]LogMaterial: Missing cached shader map for material M_RockBloc5x10_set3_1, compiling. 
+[2015.03.24-17.50.33:808][421]LogTexture:Display: Building textures: T_RockBloc5x10_set1_1_N (BC5)
+[2015.03.24-17.50.34:314][421]LogMaterial: Missing cached shader map for material M_RockBloc5x10_set1_1, compiling. 
+[2015.03.24-17.50.34:514][421]LogTexture:Display: Building textures: T_RockBloc5x10_set4_2_N (BC5)
+[2015.03.24-17.50.35:011][421]LogMaterial: Missing cached shader map for material M_RockBloc5x10_set4_2, compiling. 
+[2015.03.24-17.50.35:221][421]LogTexture:Display: Building textures: T_RockBloc5x10_set5_3_N (BC5)
+[2015.03.24-17.50.35:715][421]LogMaterial: Missing cached shader map for material M_RockBloc5x10_set5_3, compiling. 
+[2015.03.24-17.50.35:725][421]LogStaticMesh: Building static mesh SM_RockBloc5x10_Wall...
+[2015.03.24-17.50.35:739][421]LogStaticMesh: Built static mesh [14.468499ms] /Game/SideScrollerBP/Meshes/SM_RockBloc5x10_Wall.SM_RockBloc5x10_Wall
+[2015.03.24-17.50.35:751][421]LogStaticMesh: Building static mesh SM_RockBloc5x5...
+[2015.03.24-17.50.35:762][421]LogStaticMesh: Built static mesh [11.209238ms] /Game/SideScrollerBP/Meshes/SM_RockBloc5x5.SM_RockBloc5x5
+[2015.03.24-17.50.35:936][421]LogTexture:Display: Building textures: T_RockBlocTriangle5x10_set6_N (BC5)
+[2015.03.24-17.50.36:427][421]LogMaterial: Missing cached shader map for material M_RockBlocTriangle5x10_set6, compiling. 
+[2015.03.24-17.50.36:435][421]LogStaticMesh: Building static mesh SM_RockBlocTriangle_5x10...
+[2015.03.24-17.50.36:446][421]LogStaticMesh: Built static mesh [10.968650ms] /Game/SideScrollerBP/Meshes/SM_RockBlocTriangle_5x10.SM_RockBlocTriangle_5x10
+[2015.03.24-17.50.36:450][421]LogStaticMesh: Building static mesh SM_RockBloc5x10_SmootTopLeft...
+[2015.03.24-17.50.36:465][421]LogStaticMesh: Built static mesh [15.314633ms] /Game/SideScrollerBP/Meshes/SM_RockBloc5x10_SmootTopLeft.SM_RockBloc5x10_SmootTopLeft
+[2015.03.24-17.50.36:565][421]LogStaticMesh: Building static mesh SM_RockBloc5x10_SmootTopRight...
+[2015.03.24-17.50.36:586][421]LogStaticMesh: Built static mesh [21.112297ms] /Game/SideScrollerBP/Meshes/SM_RockBloc5x10_SmootTopRight.SM_RockBloc5x10_SmootTopRight
+[2015.03.24-17.50.36:683][421]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (BGRA8)
+[2015.03.24-17.50.37:181][421]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (BGRA8)
+[2015.03.24-17.50.37:183][421]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (BGRA8)
+[2015.03.24-17.50.37:188][421]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (BGRA8)
+[2015.03.24-17.50.37:193][421]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (BGRA8)
+[2015.03.24-17.50.37:400][421]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2015.03.24-17.50.38:257][421]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1)
+[2015.03.24-17.50.38:283][421]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1)
+[2015.03.24-17.50.38:311][421]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1)
+[2015.03.24-17.50.38:347][421]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1)
+[2015.03.24-17.50.38:505][421]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2015.03.24-17.50.39:899][421]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT)
+[2015.03.24-17.50.39:923][421]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT)
+[2015.03.24-17.50.39:984][421]LogTexture:Display: Building textures: T_BridgePillarWood_D (AutoDXT)
+[2015.03.24-17.50.40:549][421]LogTexture:Display: Building textures: T_BridgePillarWood_N (BC5)
+[2015.03.24-17.50.40:932][421]LogMaterial: Missing cached shader map for material M_BridgePillarStone, compiling. 
+[2015.03.24-17.50.41:046][421]LogTexture:Display: Building textures: T_Rock1_N (BC5)
+[2015.03.24-17.50.41:493][421]LogMaterial: Missing cached shader map for material M_Rock1, compiling. 
+[2015.03.24-17.50.41:635][421]LogTexture:Display: Building textures: T_Rock2_N (BC5)
+[2015.03.24-17.50.42:077][421]LogMaterial: Missing cached shader map for material M_Rock2, compiling. 
+[2015.03.24-17.50.42:206][421]LogTexture:Display: Building textures: T_Rock3_N (BC5)
+[2015.03.24-17.50.42:664][421]LogMaterial: Missing cached shader map for material M_Rock3, compiling. 
+[2015.03.24-17.50.42:810][421]LogTexture:Display: Building textures: T_Rock4_N (BC5)
+[2015.03.24-17.50.43:299][421]LogMaterial: Missing cached shader map for material M_Rock4, compiling. 
+[2015.03.24-17.50.43:450][421]LogTexture:Display: Building textures: T_Rock5_N (BC5)
+[2015.03.24-17.50.43:905][421]LogMaterial: Missing cached shader map for material M_Rock5, compiling. 
+[2015.03.24-17.50.43:913][421]LogStaticMesh: Building static mesh SM_Helmet01...
+[2015.03.24-17.50.43:941][421]LogStaticMesh: Built static mesh [27.661005ms] /Game/SideScrollerBP/Meshes/SM_Helmet01.SM_Helmet01
+[2015.03.24-17.50.43:949][421]LogStaticMesh: Building static mesh SM_Rock1...
+[2015.03.24-17.50.43:963][421]LogStaticMesh: Built static mesh [13.739490ms] /Game/SideScrollerBP/Meshes/SM_Rock1.SM_Rock1
+[2015.03.24-17.50.43:966][421]LogStaticMesh: Building static mesh SM_Rock2...
+[2015.03.24-17.50.43:983][421]LogStaticMesh: Built static mesh [16.779293ms] /Game/SideScrollerBP/Meshes/SM_Rock2.SM_Rock2
+[2015.03.24-17.50.43:987][421]LogMaterial: Missing cached shader map for material default, compiling. 
+[2015.03.24-17.50.43:993][421]LogStaticMesh: Building static mesh SM_Rock3...
+[2015.03.24-17.50.44:004][421]LogStaticMesh: Built static mesh [11.384925ms] /Game/SideScrollerBP/Meshes/SM_Rock3.SM_Rock3
+[2015.03.24-17.50.44:007][421]LogStaticMesh: Building static mesh SM_Rock4...
+[2015.03.24-17.50.44:020][421]LogStaticMesh: Built static mesh [13.828541ms] /Game/SideScrollerBP/Meshes/SM_Rock4.SM_Rock4
+[2015.03.24-17.50.44:023][421]LogStaticMesh: Building static mesh SM_Rock5...
+[2015.03.24-17.50.44:034][421]LogStaticMesh: Built static mesh [11.179957ms] /Game/SideScrollerBP/Meshes/SM_Rock5.SM_Rock5
+[2015.03.24-17.50.44:036][421]LogStaticMesh: Building static mesh SM_RockBloc5x10...
+[2015.03.24-17.50.44:049][421]LogStaticMesh: Built static mesh [12.537455ms] /Game/SideScrollerBP/Meshes/SM_RockBloc5x10.SM_RockBloc5x10
+[2015.03.24-17.50.44:204][421]LogTexture:Display: Building textures: T_StoneBridge_N (BC5)
+[2015.03.24-17.50.44:529][421]LogMaterial: Missing cached shader map for material M_StoneBridge, compiling. 
+[2015.03.24-17.50.44:540][421]LogStaticMesh: Building static mesh SM_StoneBridge5x15...
+[2015.03.24-17.50.44:692][421]LogStaticMesh: Built static mesh [152.279373ms] /Game/SideScrollerBP/Meshes/SM_StoneBridge5x15.SM_StoneBridge5x15
+[2015.03.24-17.50.44:722][421]LogStaticMesh: Building static mesh SM_StonePilar01...
+[2015.03.24-17.50.44:727][421]LogStaticMesh: Built static mesh [5.055975ms] /Game/SideScrollerBP/Meshes/SM_StonePilar01.SM_StonePilar01
+[2015.03.24-17.50.44:729][421]LogStaticMesh: Building static mesh SM_WoodenArch01...
+[2015.03.24-17.50.44:733][421]LogStaticMesh: Built static mesh [4.304024ms] /Game/SideScrollerBP/Meshes/SM_WoodenArch01.SM_WoodenArch01
+[2015.03.24-17.50.44:734][421]LogStaticMesh: Building static mesh SM_WoodenBeam01...
+[2015.03.24-17.50.44:739][421]LogStaticMesh: Built static mesh [5.074389ms] /Game/SideScrollerBP/Meshes/SM_WoodenBeam01.SM_WoodenBeam01
+[2015.03.24-17.50.44:742][421]LogStaticMesh: Building static mesh SM_WoodenBeam02...
+[2015.03.24-17.50.44:745][421]LogStaticMesh: Built static mesh [3.300013ms] /Game/SideScrollerBP/Meshes/SM_WoodenBeam02.SM_WoodenBeam02
+[2015.03.24-17.50.44:746][421]LogStaticMesh: Building static mesh SM_WoodenBeam03...
+[2015.03.24-17.50.44:748][421]LogStaticMesh: Built static mesh [2.610246ms] /Game/SideScrollerBP/Meshes/SM_WoodenBeam03.SM_WoodenBeam03
+[2015.03.24-17.50.44:750][421]LogStaticMesh: Building static mesh SM_WoodenPlank01...
+[2015.03.24-17.50.44:752][421]LogStaticMesh: Built static mesh [2.575834ms] /Game/SideScrollerBP/Meshes/SM_WoodenPlank01.SM_WoodenPlank01
+[2015.03.24-17.50.44:755][421]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT)
+[2015.03.24-17.50.44:807][421]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT)
+[2015.03.24-17.50.45:105][421]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.03.24-17.50.45:113][421]LogAIModule: Creating AISystem for world Ascension5
+[2015.03.24-17.50.45:146][421]Cmd: MAP CHECKDEP
+[2015.03.24-17.50.45:146][421]MapCheck: New page: Ascension5 - Mar 24, 2015, 9:50:45 AM
+[2015.03.24-17.50.45:283][421]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 137.18ms to complete.
+[2015.03.24-17.50.45:283][421]LogFileHelpers: Loading map 'Ascension5' took 14.282
+[2015.03.24-17.50.56:635][ 95]LogRenderer:Warning: Reallocating scene render targets to support 1136x808 (Frame:1756).
+[2015.03.24-17.51.00:359][288]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock21)
+[2015.03.24-17.51.09:749][756]LogEditorViewport: Clicking on Actor (LMB): LightmassImportanceVolume (LightmassImportanceVolume)
+[2015.03.24-17.51.13:822][950]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.24-17.51.39:423][240]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.24-17.51.41:046][332]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-17.51.42:767][416]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Animations'
+[2015.03.24-17.51.43:704][465]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-17.51.46:823][621]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-17.51.47:398][651]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-17.51.51:140][836]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-17.51.57:338][381]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-17.52.05:877][928]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-17.53.36:758][371]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-17.53.49:069][ 15]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-17.53.59:982][488]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-17.54.21:197][501]LogRenderer:Warning: Reallocating scene render targets to support 1144x904 (Frame:24423).
+[2015.03.24-17.54.27:445][910]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-17.54.27:777][924]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-17.54.32:766][147]LogActorFactory: Actor Factory created SM_Rock2
+[2015.03.24-17.54.33:303][190]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-17.54.45:900][768]BlueprintLog: New page: Compile SM_Rock2
+[2015.03.24-17.54.45:962][768]BlueprintEditorCompileResults: Info [0285.52] Compile of SM_Rock2 successful! [in 62 ms]
+[2015.03.24-17.54.46:430][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SM_Rock2" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_Rock2.uasset" SILENT=true
+[2015.03.24-17.54.46:751][791]LogSavePackage: Save=262.256256ms
+[2015.03.24-17.54.46:751][791]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_Rock25536FD58489EA647C15DABA321D91DAC.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_Rock2.uasset'
+[2015.03.24-17.54.52:632][ 56]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Character'
+[2015.03.24-17.54.53:310][ 93]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.24-17.54.53:959][132]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-17.54.54:833][176]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-17.55.03:808][721]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-17.55.06:367][850]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-17.55.22:165][638]BlueprintLog: New page: Compile SM_Rock3
+[2015.03.24-17.55.22:210][638]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D3F40E0
+[2015.03.24-17.55.22:218][638]BlueprintEditorCompileResults: Info [0321.78] Compile of SM_Rock3 successful! [in 52 ms]
+[2015.03.24-17.55.22:747][664]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SM_Rock3" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_Rock3.uasset" SILENT=true
+[2015.03.24-17.55.23:030][664]LogSavePackage: Save=277.168213ms
+[2015.03.24-17.55.23:030][664]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_Rock3AF8B60A84D17734413AD8EBCED0BD6A7.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_Rock3.uasset'
+[2015.03.24-17.55.28:397][931]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-17.55.28:755][949]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.24-17.55.30:014][ 23]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Character'
+[2015.03.24-17.55.30:750][ 63]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.24-17.55.31:153][ 91]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-17.55.32:326][148]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-17.55.41:220][658]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-17.55.41:640][681]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-17.55.45:116][815]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-17.55.57:284][518]BlueprintLog: New page: Compile SM_Rock4
+[2015.03.24-17.55.57:329][518]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039CCB9C0
+[2015.03.24-17.55.57:338][518]BlueprintEditorCompileResults: Info [0356.90] Compile of SM_Rock4 successful! [in 53 ms]
+[2015.03.24-17.55.57:864][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SM_Rock4" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_Rock4.uasset" SILENT=true
+[2015.03.24-17.55.58:131][544]LogSavePackage: Save=261.041260ms
+[2015.03.24-17.55.58:131][544]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_Rock45AC42A4C4C0B40F164FD3FB78C2C88E9.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_Rock4.uasset'
+[2015.03.24-17.56.01:942][731]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-17.56.09:686][274]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-17.56.17:668][672]LogActorFactory: Actor Factory created SM_Rock5
+[2015.03.24-17.56.18:179][714]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-17.56.27:889][199]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x10Set6_1_C (SM_RockBloc5x10Set6_8)
+[2015.03.24-17.56.34:958][575]BlueprintLog: New page: Compile SM_Rock5
+[2015.03.24-17.56.35:002][575]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004E01A3E0
+[2015.03.24-17.56.35:009][575]BlueprintEditorCompileResults: Info [0394.56] Compile of SM_Rock5 successful! [in 51 ms]
+[2015.03.24-17.56.35:514][600]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SM_Rock5" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_Rock5.uasset" SILENT=true
+[2015.03.24-17.56.35:792][600]LogSavePackage: Save=255.202835ms
+[2015.03.24-17.56.35:792][600]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_Rock5274CEBAC492F30C09EA5AF8287D5D346.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_Rock5.uasset'
+[2015.03.24-17.56.39:765][794]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-17.56.41:120][861]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.24-17.56.41:975][907]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Character'
+[2015.03.24-17.56.43:040][960]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-17.57.04:904][  9]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-17.57.04:918][  9]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000583F96C0
+[2015.03.24-17.57.11:383][264]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-17.57.25:099][790]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-17.57.28:650][943]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-17.57.34:288][221]BlueprintLog: New page: Compile SM_Rock1
+[2015.03.24-17.57.34:340][221]BlueprintEditorCompileResults: Info [0453.89] Compile of SM_Rock1 successful! [in 52 ms]
+[2015.03.24-17.57.34:730][239]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SM_Rock1" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_Rock1.uasset" SILENT=true
+[2015.03.24-17.57.35:023][239]LogSavePackage: Save=286.085052ms
+[2015.03.24-17.57.35:023][239]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_Rock130F3F5FE4F63B708048A00AA0E0F3686.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_Rock1.uasset'
+[2015.03.24-17.57.37:926][376]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-17.58.08:099][341]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock27)
+[2015.03.24-17.58.11:204][553]LogEditorViewport: Clicking on Actor (LMB): SM_Rock1_C (SM_Rock24)
+[2015.03.24-17.58.14:969][811]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock27)
+[2015.03.24-17.58.52:047][329]LogEditorViewport: Clicking on Actor (LMB): SM_Rock2_C (SM_Rock25)
+[2015.03.24-17.58.52:559][364]LogEditorViewport: Clicking on Actor (LMB): SM_Rock1_C (SM_Rock24)
+[2015.03.24-17.58.54:795][519]LogEditorViewport: Clicking on Actor (LMB): SM_Rock3_C (SM_Rock26)
+[2015.03.24-17.59.19:714][200]LogEditorViewport: Clicking on Actor (LMB): SM_Rock1_C (SM_Rock24)
+[2015.03.24-17.59.53:308][182]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x5_set4_2_C (SM_RockBloc5x5_set4_2)
+[2015.03.24-18.00.11:639][282]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlockSmoothTopLeft_5x10set6_1_C (SM_RockBlockSmoothTopLeft_5x10set6_2)
+[2015.03.24-18.00.14:997][491]Cmd: DELETE
+[2015.03.24-18.00.14:997][491]Cmd: ACTOR DELETE
+[2015.03.24-18.00.14:999][491]LogEditorActor: Deleted Actor: Brush
+[2015.03.24-18.00.15:000][491]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.00.15:018][491]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038ADD120
+[2015.03.24-18.00.15:043][491]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2015.03.24-18.00.15:574][523]Cmd: DELETE
+[2015.03.24-18.00.15:574][523]Cmd: ACTOR DELETE
+[2015.03.24-18.00.15:575][523]LogEditorActor: Deleted Actor: Brush
+[2015.03.24-18.00.15:615][523]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2015.03.24-18.00.18:536][700]Cmd: TRANSACTION UNDO
+[2015.03.24-18.00.18:536][700]LogEditorTransaction: Undo Delete Actors
+[2015.03.24-18.00.24:090][998]LogEditorViewport: Clicking on Actor (LMB): SM_Rock2_C (SM_Rock25)
+[2015.03.24-18.00.26:094][118]LogEditorViewport: Clicking on Actor (LMB): SM_Rock3_C (SM_Rock26)
+[2015.03.24-18.00.34:740][583]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock17)
+[2015.03.24-18.00.38:148][610]LogSavePackage: Save=2232.214111ms
+[2015.03.24-18.00.38:148][610]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Ascension5_Auto123D906394159CCBC17018B90253948FB.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Maps/Ascension5_Auto1.umap'
+[2015.03.24-18.00.38:167][610]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Ascension5' took 2.734
+[2015.03.24-18.00.38:167][610]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.734
+[2015.03.24-18.00.38:544][630]Cmd: DELETE
+[2015.03.24-18.00.38:544][630]Cmd: ACTOR DELETE
+[2015.03.24-18.00.38:547][630]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.24-18.00.38:565][630]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2015.03.24-18.00.39:180][662]LogEditorViewport: Clicking on Actor (LMB): SM_Rock3_C (SM_Rock32)
+[2015.03.24-18.01.30:404][680]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WoodenBeam11)
+[2015.03.24-18.01.31:981][783]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WoodenPlank10)
+[2015.03.24-18.01.32:702][825]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenPlank8)
+[2015.03.24-18.01.33:077][848]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenPlank7)
+[2015.03.24-18.01.33:461][871]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenPlank6)
+[2015.03.24-18.01.33:776][891]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenPlank9)
+[2015.03.24-18.01.35:499][  9]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_StonePilar19)
+[2015.03.24-18.01.35:991][ 41]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenBeam16)
+[2015.03.24-18.01.36:594][ 82]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenArch4)
+[2015.03.24-18.01.37:057][113]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenBeam18)
+[2015.03.24-18.01.37:921][173]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenBeam17)
+[2015.03.24-18.01.40:591][363]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenBeam14)
+[2015.03.24-18.01.41:237][407]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenArch3)
+[2015.03.24-18.01.41:668][435]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenBeam13)
+[2015.03.24-18.01.42:248][474]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenBeam12)
+[2015.03.24-18.01.42:713][505]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenBeam15)
+[2015.03.24-18.01.44:093][598]Cmd: TRANSACTION UNDO
+[2015.03.24-18.01.44:093][598]LogEditorTransaction: Undo Move Actors
+[2015.03.24-18.01.44:114][598]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Ascension5.Ascension5:PersistentLevel.SM_WoodenBeam16.StaticMeshComponent0) Component already registered.
+[2015.03.24-18.01.44:118][598]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Ascension5.Ascension5:PersistentLevel.SM_WoodenBeam15.StaticMeshComponent0) Component already registered.
+[2015.03.24-18.01.46:946][776]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_StonePilar17)
+[2015.03.24-18.01.48:627][897]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_StonePilar18)
+[2015.03.24-18.01.49:634][970]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_StonePilar16)
+[2015.03.24-18.01.51:219][ 80]Cmd: TRANSACTION UNDO
+[2015.03.24-18.01.51:219][ 80]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.24-18.01.52:022][115]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenBeam11)
+[2015.03.24-18.01.54:613][285]Cmd: TRANSACTION UNDO
+[2015.03.24-18.01.54:613][285]LogEditorTransaction: Undo Move Actors
+[2015.03.24-18.01.54:638][285]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Ascension5.Ascension5:PersistentLevel.SM_WoodenBeam16.StaticMeshComponent0) Component already registered.
+[2015.03.24-18.01.54:640][285]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Ascension5.Ascension5:PersistentLevel.SM_WoodenPlank8.StaticMeshComponent0) Component already registered.
+[2015.03.24-18.01.54:641][285]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Ascension5.Ascension5:PersistentLevel.SM_WoodenBeam18.StaticMeshComponent0) Component already registered.
+[2015.03.24-18.01.54:644][285]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Ascension5.Ascension5:PersistentLevel.SM_StonePilar16.StaticMeshComponent0) Component already registered.
+[2015.03.24-18.01.56:165][366]Cmd: TRANSACTION UNDO
+[2015.03.24-18.01.56:165][366]LogEditorTransaction: Undo Move Actors
+[2015.03.24-18.01.56:189][366]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Ascension5.Ascension5:PersistentLevel.SM_WoodenBeam16.StaticMeshComponent0) Component already registered.
+[2015.03.24-18.01.56:191][366]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Ascension5.Ascension5:PersistentLevel.SM_WoodenPlank8.StaticMeshComponent0) Component already registered.
+[2015.03.24-18.01.56:191][366]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Ascension5.Ascension5:PersistentLevel.SM_WoodenBeam18.StaticMeshComponent0) Component already registered.
+[2015.03.24-18.01.56:195][366]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Ascension5.Ascension5:PersistentLevel.SM_StonePilar16.StaticMeshComponent0) Component already registered.
+[2015.03.24-18.01.56:570][390]Cmd: TRANSACTION UNDO
+[2015.03.24-18.01.56:570][390]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.24-18.01.59:411][580]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenBeam19)
+[2015.03.24-18.02.00:106][626]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_WoodenBeam20)
+[2015.03.24-18.02.01:723][736]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_StonePilar16)
+[2015.03.24-18.02.03:822][875]Cmd: TRANSACTION UNDO
+[2015.03.24-18.02.03:822][875]LogEditorTransaction: Undo Move Actors
+[2015.03.24-18.02.03:847][875]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Ascension5.Ascension5:PersistentLevel.SM_WoodenBeam18.StaticMeshComponent0) Component already registered.
+[2015.03.24-18.02.03:849][875]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Ascension5.Ascension5:PersistentLevel.SM_WoodenBeam17.StaticMeshComponent0) Component already registered.
+[2015.03.24-18.02.03:853][875]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Ascension5.Ascension5:PersistentLevel.SM_StonePilar16.StaticMeshComponent0) Component already registered.
+[2015.03.24-18.02.03:854][875]LogActorComponent: ~FComponentReregisterContext: (/Game/SideScrollerBP/Maps/Ascension5.Ascension5:PersistentLevel.SM_WoodenBeam13.StaticMeshComponent0) Component already registered.
+[2015.03.24-18.02.17:745][652]LogEditorViewport: Clicking on Actor (LMB): SM_Rock5_C (SM_Rock28)
+[2015.03.24-18.03.06:290][430]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock27)
+[2015.03.24-18.04.11:526][253]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock23)
+[2015.03.24-18.04.12:327][288]Cmd: DELETE
+[2015.03.24-18.04.12:327][288]Cmd: ACTOR DELETE
+[2015.03.24-18.04.12:330][288]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.24-18.04.12:354][288]LogEditorActor: Deleted 1 Actors (0.027 secs)
+[2015.03.24-18.04.12:840][312]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock22)
+[2015.03.24-18.04.12:996][317]Cmd: DELETE
+[2015.03.24-18.04.12:996][317]Cmd: ACTOR DELETE
+[2015.03.24-18.04.12:998][317]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.24-18.04.13:013][317]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2015.03.24-18.04.13:460][339]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock21)
+[2015.03.24-18.04.13:560][343]Cmd: DELETE
+[2015.03.24-18.04.13:560][343]Cmd: ACTOR DELETE
+[2015.03.24-18.04.13:561][343]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.24-18.04.13:578][343]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2015.03.24-18.04.15:559][436]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock18)
+[2015.03.24-18.04.15:935][452]Cmd: DELETE
+[2015.03.24-18.04.15:935][452]Cmd: ACTOR DELETE
+[2015.03.24-18.04.15:937][452]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.24-18.04.15:953][452]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2015.03.24-18.04.16:380][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock5)
+[2015.03.24-18.04.16:594][480]Cmd: DELETE
+[2015.03.24-18.04.16:594][480]Cmd: ACTOR DELETE
+[2015.03.24-18.04.16:595][480]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.24-18.04.16:612][480]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2015.03.24-18.04.16:944][496]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock4)
+[2015.03.24-18.04.17:170][505]Cmd: DELETE
+[2015.03.24-18.04.17:170][505]Cmd: ACTOR DELETE
+[2015.03.24-18.04.17:171][505]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.24-18.04.17:188][505]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2015.03.24-18.04.17:564][523]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock6)
+[2015.03.24-18.04.17:828][532]Cmd: DELETE
+[2015.03.24-18.04.17:828][532]Cmd: ACTOR DELETE
+[2015.03.24-18.04.17:830][532]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.24-18.04.17:849][532]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2015.03.24-18.04.18:227][550]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock11)
+[2015.03.24-18.04.18:492][561]Cmd: DELETE
+[2015.03.24-18.04.18:492][561]Cmd: ACTOR DELETE
+[2015.03.24-18.04.18:493][561]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.24-18.04.18:510][561]LogEditorActor: Deleted 1 Actors (0.019 secs)
+[2015.03.24-18.04.20:427][647]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock20)
+[2015.03.24-18.04.20:577][651]Cmd: DELETE
+[2015.03.24-18.04.20:577][651]Cmd: ACTOR DELETE
+[2015.03.24-18.04.20:579][651]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.24-18.04.20:595][651]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2015.03.24-18.04.21:092][673]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock19)
+[2015.03.24-18.04.21:263][678]Cmd: DELETE
+[2015.03.24-18.04.21:263][678]Cmd: ACTOR DELETE
+[2015.03.24-18.04.21:264][678]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.24-18.04.21:280][678]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2015.03.24-18.04.25:491][884]LogEditorViewport: Clicking on Actor (LMB): SM_Rock1_C (SM_Rock24)
+[2015.03.24-18.04.26:615][944]LogEditorViewport: Clicking on Actor (LMB): SM_Rock2_C (SM_Rock25)
+[2015.03.24-18.04.27:356][983]LogEditorViewport: Clicking on Actor (LMB): SM_Rock3_C (SM_Rock26)
+[2015.03.24-18.04.27:790][  5]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock27)
+[2015.03.24-18.04.28:132][ 22]LogEditorViewport: Clicking on Actor (LMB): SM_Rock5_C (SM_Rock28)
+[2015.03.24-18.04.32:580][262]LogEditorViewport: Clicking on Actor (LMB): SM_Rock1_C (SM_Rock31)
+[2015.03.24-18.04.33:158][292]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_Rock3_C (SM_Rock30)
+[2015.03.24-18.04.33:537][310]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_Rock4_C (SM_Rock29)
+[2015.03.24-18.04.51:379][512]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.24-18.04.54:947][713]LogEditorViewport: Clicking on Actor (LMB): SM_Rock3_C (SM_Rock26)
+[2015.03.24-18.05.49:382][170]LogEditorViewport: Clicking on Actor (LMB): SM_Rock1_C (SM_Rock24)
+[2015.03.24-18.06.24:784][167]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.24-18.06.28:104][336]LogEditorViewport: Clicking on Actor (LMB): SM_Rock5_C (SM_Rock33)
+[2015.03.24-18.07.11:174][875]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.24-18.07.40:959][594]LogEditorViewport: Clicking on Actor (LMB): SM_Rock5_C (SM_Rock28)
+[2015.03.24-18.07.43:355][723]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock27)
+[2015.03.24-18.07.45:344][835]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.24-18.07.46:146][879]LogEditorViewport: Clicking on Actor (LMB): SM_Rock2_C (SM_Rock25)
+[2015.03.24-18.08.44:810][335]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.24-18.08.44:810][335]PIE: New page: PIE session: Ascension5 (Mar 24, 2015, 10:08:44 AM)
+[2015.03.24-18.08.44:835][335]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024463s)
+[2015.03.24-18.08.44:835][335]LogPlayLevel: PIE: World Init took: (0.000505s)
+[2015.03.24-18.08.44:835][335]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Ascension5.Ascension5 to /Game/SideScrollerBP/Maps/UEDPIE_0_Ascension5.Ascension5 (0.025225s)
+[2015.03.24-18.08.44:917][335]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.03.24-18.08.44:920][335]LogAIModule: Creating AISystem for world Ascension5
+[2015.03.24-18.08.44:961][335]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Ascension5.Ascension5 up for play (max tick rate 0) at 2015.03.24-14.08.44
+[2015.03.24-18.08.44:967][335]LogWorld: Bringing up level for play took: 0.046936
+[2015.03.24-18.08.44:969][335]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Ascension5 -0.663
+[2015.03.24-18.08.52:956][840]LogD3D11RHI:Warning: Temp texture streaming buffer not large enough, needed 8388608 bytes
+[2015.03.24-18.09.02:027][445]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000332C0E0
+[2015.03.24-18.09.03:617][542]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TemplateLabel)
+[2015.03.24-18.09.04:985][629]Cmd: DELETE
+[2015.03.24-18.09.04:985][629]Cmd: ACTOR DELETE
+[2015.03.24-18.09.04:989][629]LogEditorActor: Deleted Actor: TextRenderActor
+[2015.03.24-18.09.05:007][629]LogEditorActor: Deleted 1 Actors (0.021 secs)
+[2015.03.24-18.09.28:502][845]LogEditorViewport: Clicking on Actor (LMB): SM_Rock1_C (SM_Rock24)
+[2015.03.24-18.10.16:639][650]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock29)
+[2015.03.24-18.10.52:240][413]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_StoneBridge5x17)
+[2015.03.24-18.10.58:131][560]LogSavePackage: Save=2259.814453ms
+[2015.03.24-18.10.58:131][560]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Ascension5_Auto22FF6007B487AE5C7BE4FEE96EA47CE9F.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Maps/Ascension5_Auto2.umap'
+[2015.03.24-18.10.58:146][560]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Ascension5' took 2.631
+[2015.03.24-18.10.58:146][560]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.631
+[2015.03.24-18.11.14:475][395]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock43)
+[2015.03.24-18.11.14:943][416]LogEditorViewport: Clicking on Actor (LMB): SM_Rock3_C (SM_Rock32)
+[2015.03.24-18.11.16:265][476]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock10)
+[2015.03.24-18.11.20:809][703]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock27)
+[2015.03.24-18.11.22:096][771]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock27)
+[2015.03.24-18.11.35:105][416]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock10)
+[2015.03.24-18.11.36:760][490]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock44)
+[2015.03.24-18.11.38:066][550]Cmd: TRANSACTION UNDO
+[2015.03.24-18.11.38:066][550]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.24-18.11.38:904][578]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock44)
+[2015.03.24-18.11.47:143][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock10)
+[2015.03.24-18.11.48:085][998]Cmd: DELETE
+[2015.03.24-18.11.48:085][998]Cmd: ACTOR DELETE
+[2015.03.24-18.11.48:087][998]LogEditorActor: Deleted Actor: StaticMeshActor
+[2015.03.24-18.11.48:110][998]LogEditorActor: Deleted 1 Actors (0.025 secs)
+[2015.03.24-18.11.48:611][ 22]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock44)
+[2015.03.24-18.12.03:064][708]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.24-18.12.03:879][748]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock44)
+[2015.03.24-18.12.18:349][471]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlockSmoothTopRight_5x10set4_2_C (SM_RockBlockSmoothTopRight_5x10set4_4)
+[2015.03.24-18.12.19:506][525]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlockSmoothTopRight_5x10set5_3_C (SM_RockBlockSmoothTopRight_5x10set5_7)
+[2015.03.24-18.12.26:053][810]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.12.39:829][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.12.39:857][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/Ascension6" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension6.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.24-18.12.41:990][ 92]LogSavePackage: Save=2110.911133ms
+[2015.03.24-18.12.41:990][ 92]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Ascension616862EC948722A677DB73197AE8810DA.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension6.umap'
+[2015.03.24-18.12.42:025][ 92]LogFileHelpers: Saving map 'Ascension6' took 2.536
+[2015.03.24-18.12.59:763][968]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Rock12)
+[2015.03.24-18.13.00:395][995]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlockSmoothTopLeft_5x10set5_3_C (SM_RockBlockSmoothTopLeft_5x10set5_3)
+[2015.03.24-18.13.02:221][ 82]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WoodenArch01)
+[2015.03.24-18.13.17:576][954]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WoodenBeam10)
+[2015.03.24-18.13.22:392][205]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlock5x10set4_2_C (SM_RockBlock5x10set4_6)
+[2015.03.24-18.13.28:454][547]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock27)
+[2015.03.24-18.14.18:601][414]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-18.14.19:315][449]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.24-18.14.20:238][502]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Character'
+[2015.03.24-18.14.21:371][557]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.14.23:103][644]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Character'
+[2015.03.24-18.14.23:440][661]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.24-18.14.23:775][680]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-18.14.24:216][701]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.14.58:627][256]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.24-18.15.52:858][352]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 Z:/Partage temporaire/ProjetAscension/FBX_IceSpikes/SM_IceSpike1.FBX)
+[2015.03.24-18.15.52:892][352]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.03.24-18.15.52:892][352]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.03.24-18.15.52:892][352]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.03.24-18.15.52:892][352]LogFbx: ItemName: Model, ItemCount : 2
+[2015.03.24-18.15.52:892][352]LogFbx: ItemName: Geometry, ItemCount : 2
+[2015.03.24-18.15.52:892][352]LogFbx: ItemName: Material, ItemCount : 1
+[2015.03.24-18.15.52:892][352]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.03.24-18.15.52:892][352]LogFbx: ItemName: AnimationCurve, ItemCount : 18
+[2015.03.24-18.15.52:892][352]LogFbx: ItemName: AnimationCurveNode, ItemCount : 6
+[2015.03.24-18.15.52:892][352]LogFbx: ItemName: Video, ItemCount : 1
+[2015.03.24-18.15.54:947][352]LogFbx: Loading FBX Scene from Z:/Partage temporaire/ProjetAscension/FBX_IceSpikes/SM_IceSpike1.FBX
+[2015.03.24-18.15.54:972][352]LogFbx: FBX Scene Loaded Succesfully
+[2015.03.24-18.15.54:977][352]LogFbx: == Initial material list:
+[2015.03.24-18.15.54:977][352]LogFbx: 0: Material #33
+[2015.03.24-18.15.54:977][352]LogFbx: == After sorting:
+[2015.03.24-18.15.54:977][352]LogFbx: 0: Material #33
+[2015.03.24-18.15.54:977][352]LogFbx: == Mapping table:
+[2015.03.24-18.15.54:977][352]LogFbx:   sort 0 -> 0
+[2015.03.24-18.15.54:978][352]LogStaticMesh: Building static mesh SM_IceSpike1...
+[2015.03.24-18.15.54:980][352]LogStaticMesh: Built static mesh [2.650093ms] /Game/SideScrollerBP/Meshes/SM_IceSpike1.SM_IceSpike1
+[2015.03.24-18.15.54:994][352]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.24-18.15.54:994][352]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.16.12:357][ 79]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 Z:/Partage temporaire/ProjetAscension/FBX_IceSpikes/SM_IceSpike2.FBX)
+[2015.03.24-18.16.12:386][ 79]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.03.24-18.16.12:386][ 79]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.03.24-18.16.12:386][ 79]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.03.24-18.16.12:386][ 79]LogFbx: ItemName: Model, ItemCount : 2
+[2015.03.24-18.16.12:386][ 79]LogFbx: ItemName: Geometry, ItemCount : 2
+[2015.03.24-18.16.12:386][ 79]LogFbx: ItemName: Material, ItemCount : 1
+[2015.03.24-18.16.12:386][ 79]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.03.24-18.16.12:386][ 79]LogFbx: ItemName: Video, ItemCount : 1
+[2015.03.24-18.16.13:652][ 79]LogFbx: Loading FBX Scene from Z:/Partage temporaire/ProjetAscension/FBX_IceSpikes/SM_IceSpike2.FBX
+[2015.03.24-18.16.13:677][ 79]LogFbx: FBX Scene Loaded Succesfully
+[2015.03.24-18.16.13:682][ 79]LogFbx: == Initial material list:
+[2015.03.24-18.16.13:682][ 79]LogFbx: 0: Material #33
+[2015.03.24-18.16.13:682][ 79]LogFbx: == After sorting:
+[2015.03.24-18.16.13:682][ 79]LogFbx: 0: Material #33
+[2015.03.24-18.16.13:682][ 79]LogFbx: == Mapping table:
+[2015.03.24-18.16.13:682][ 79]LogFbx:   sort 0 -> 0
+[2015.03.24-18.16.13:682][ 79]LogStaticMesh: Building static mesh SM_IceSpike2...
+[2015.03.24-18.16.13:686][ 79]LogStaticMesh: Built static mesh [3.292165ms] /Game/SideScrollerBP/Meshes/SM_IceSpike2.SM_IceSpike2
+[2015.03.24-18.16.13:698][ 79]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.24-18.16.13:699][ 79]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.16.18:524][192]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 Z:/Partage temporaire/ProjetAscension/FBX_IceSpikes/SM_IceSpike3.FBX)
+[2015.03.24-18.16.18:556][192]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.03.24-18.16.18:556][192]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.03.24-18.16.18:556][192]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.03.24-18.16.18:556][192]LogFbx: ItemName: Model, ItemCount : 2
+[2015.03.24-18.16.18:556][192]LogFbx: ItemName: Geometry, ItemCount : 2
+[2015.03.24-18.16.18:556][192]LogFbx: ItemName: Material, ItemCount : 2
+[2015.03.24-18.16.18:556][192]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.03.24-18.16.18:556][192]LogFbx: ItemName: AnimationCurve, ItemCount : 18
+[2015.03.24-18.16.18:556][192]LogFbx: ItemName: AnimationCurveNode, ItemCount : 6
+[2015.03.24-18.16.18:556][192]LogFbx: ItemName: Video, ItemCount : 1
+[2015.03.24-18.16.19:572][192]LogFbx: Loading FBX Scene from Z:/Partage temporaire/ProjetAscension/FBX_IceSpikes/SM_IceSpike3.FBX
+[2015.03.24-18.16.19:596][192]LogFbx: FBX Scene Loaded Succesfully
+[2015.03.24-18.16.19:600][192]LogFbx: == Initial material list:
+[2015.03.24-18.16.19:600][192]LogFbx: 0: Material #34
+[2015.03.24-18.16.19:600][192]LogFbx: == After sorting:
+[2015.03.24-18.16.19:600][192]LogFbx: 0: Material #34
+[2015.03.24-18.16.19:600][192]LogFbx: == Mapping table:
+[2015.03.24-18.16.19:600][192]LogFbx:   sort 0 -> 0
+[2015.03.24-18.16.19:601][192]LogStaticMesh: Building static mesh SM_IceSpike3...
+[2015.03.24-18.16.19:604][192]LogStaticMesh: Built static mesh [3.210359ms] /Game/SideScrollerBP/Meshes/SM_IceSpike3.SM_IceSpike3
+[2015.03.24-18.16.19:616][192]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.24-18.16.19:616][192]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.16.23:739][283]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 Z:/Partage temporaire/ProjetAscension/FBX_IceSpikes/T_IceSpike_N.tga)
+[2015.03.24-18.16.23:761][283]0.000029 seconds to analyze Texture2D /Game/SideScrollerBP/Meshes/T_IceSpike_N.T_IceSpike_N
+
+[2015.03.24-18.16.23:770][283]LogTexture:Display: Building textures: T_IceSpike_N (BC5)
+[2015.03.24-18.16.23:809][283]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.24-18.16.23:809][283]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.16.35:956][523]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 Z:/Partage temporaire/ProjetAscension/FBX_Menir/SM_Menir_01.FBX)
+[2015.03.24-18.16.36:128][523]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.03.24-18.16.36:128][523]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.03.24-18.16.36:128][523]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.03.24-18.16.36:128][523]LogFbx: ItemName: Model, ItemCount : 2
+[2015.03.24-18.16.36:128][523]LogFbx: ItemName: Geometry, ItemCount : 2
+[2015.03.24-18.16.36:128][523]LogFbx: ItemName: Material, ItemCount : 1
+[2015.03.24-18.16.36:128][523]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.03.24-18.16.36:128][523]LogFbx: ItemName: Video, ItemCount : 1
+[2015.03.24-18.16.51:786][523]LogFbx: Loading FBX Scene from Z:/Partage temporaire/ProjetAscension/FBX_Menir/SM_Menir_01.FBX
+[2015.03.24-18.16.51:945][523]LogFbx: FBX Scene Loaded Succesfully
+[2015.03.24-18.16.51:950][523]LogFbx: == Initial material list:
+[2015.03.24-18.16.51:950][523]LogFbx: 0: Material #133
+[2015.03.24-18.16.51:950][523]LogFbx: == After sorting:
+[2015.03.24-18.16.51:950][523]LogFbx: 0: Material #133
+[2015.03.24-18.16.51:950][523]LogFbx: == Mapping table:
+[2015.03.24-18.16.51:950][523]LogFbx:   sort 0 -> 0
+[2015.03.24-18.16.51:951][523]LogStaticMesh: Building static mesh SM_Menir_01...
+[2015.03.24-18.16.51:961][523]LogStaticMesh: Built static mesh [10.291863ms] /Game/SideScrollerBP/Meshes/SM_Menir_01.SM_Menir_01
+[2015.03.24-18.16.51:978][523]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.24-18.16.51:978][523]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.16.57:073][659]LogFactory: FactoryCreateBinary: StaticMesh with FbxFactory (0 0 Z:/Partage temporaire/ProjetAscension/FBX_Menir/SM_Menir_02.FBX)
+[2015.03.24-18.16.57:239][659]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2015.03.24-18.16.57:239][659]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2015.03.24-18.16.57:239][659]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2015.03.24-18.16.57:239][659]LogFbx: ItemName: Model, ItemCount : 2
+[2015.03.24-18.16.57:239][659]LogFbx: ItemName: Geometry, ItemCount : 2
+[2015.03.24-18.16.57:239][659]LogFbx: ItemName: Material, ItemCount : 1
+[2015.03.24-18.16.57:239][659]LogFbx: ItemName: Texture, ItemCount : 1
+[2015.03.24-18.16.57:239][659]LogFbx: ItemName: Video, ItemCount : 1
+[2015.03.24-18.16.58:311][659]LogFbx: Loading FBX Scene from Z:/Partage temporaire/ProjetAscension/FBX_Menir/SM_Menir_02.FBX
+[2015.03.24-18.16.58:470][659]LogFbx: FBX Scene Loaded Succesfully
+[2015.03.24-18.16.58:476][659]LogFbx: == Initial material list:
+[2015.03.24-18.16.58:476][659]LogFbx: 0: Material #133
+[2015.03.24-18.16.58:476][659]LogFbx: == After sorting:
+[2015.03.24-18.16.58:476][659]LogFbx: 0: Material #133
+[2015.03.24-18.16.58:476][659]LogFbx: == Mapping table:
+[2015.03.24-18.16.58:476][659]LogFbx:   sort 0 -> 0
+[2015.03.24-18.16.58:477][659]LogStaticMesh: Building static mesh SM_Menir_02...
+[2015.03.24-18.16.58:490][659]LogStaticMesh: Built static mesh [13.447282ms] /Game/SideScrollerBP/Meshes/SM_Menir_02.SM_Menir_02
+[2015.03.24-18.16.58:509][659]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.03.24-18.16.58:509][659]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.17.04:323][931]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.17.23:646][890]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.24-18.17.23:666][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.03.24-18.17.23:701][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.03.24-18.17.23:702][890]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.03.24-18.17.23:702][890]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2015.03.24-18.17.23:702][890]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2015.03.24-18.17.23:704][890]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.24-18.17.23:708][890]LogMaterial: 0.000082 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.24-18.17.24:569][976]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.03.24-18.17.24:569][976]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.03.24-18.17.24:569][976]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.03.24-18.17.38:082][738]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.24-18.17.38:086][738]LogMaterial: 0.000092 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.24-18.17.38:086][738]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.03.24-18.17.38:111][738]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.03.24-18.17.38:602][755]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 29 instructions
+[2015.03.24-18.17.38:602][755]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.03.24-18.17.38:602][755]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.03.24-18.17.40:974][877]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.24-18.17.40:978][877]LogMaterial: 0.000035 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.24-18.17.41:004][877]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2015.03.24-18.17.41:744][908]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2015.03.24-18.17.41:744][908]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.24-18.17.41:745][908]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.03.24-18.17.55:010][526]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.24-18.17.55:014][526]LogMaterial: 0.000074 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.24-18.17.55:014][526]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.03.24-18.17.55:017][526]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.24-18.17.55:021][526]LogMaterial: 0.000079 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.24-18.17.55:043][526]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.03.24-18.17.55:723][549]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2015.03.24-18.17.55:723][549]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.24-18.17.55:723][549]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.03.24-18.18.11:076][277]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.24-18.18.11:080][277]LogMaterial: 0.000034 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.24-18.18.11:102][277]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.03.24-18.18.11:649][295]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2015.03.24-18.18.11:650][295]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.24-18.18.11:650][295]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.03.24-18.18.27:247][ 56]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.24-18.18.27:251][ 56]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.24-18.18.27:284][ 56]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.03.24-18.18.27:839][ 74]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 44 instructions
+[2015.03.24-18.18.27:839][ 74]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.24-18.18.27:839][ 74]MaterialEditorStats: Info Texture samplers: 1/16
+[2015.03.24-18.18.32:907][334]LogMaterialEditor: Applying material M_IceSpike
+[2015.03.24-18.18.34:102][334]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.24-18.18.34:115][334]LogMaterial: 0.000038 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.24-18.18.34:214][334]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.24-18.18.34:227][334]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.24-18.18.34:242][334]LogMaterial: 0.008838 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.24-18.18.35:108][370]LogMaterialEditor: Saving and Compiling material M_IceSpike
+[2015.03.24-18.18.36:385][370]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.24-18.18.36:399][370]LogMaterial: 0.000063 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.24-18.18.36:442][370]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.24-18.18.36:455][370]LogMaterial: Missing cached shader map for material M_IceSpike, compiling. 
+[2015.03.24-18.18.36:471][370]LogMaterial: 0.008482 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.03.24-18.18.38:267][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Meshes/M_IceSpike" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/M_IceSpike.uasset" SILENT=true
+[2015.03.24-18.18.38:689][370]LogSavePackage: Save=417.266022ms
+[2015.03.24-18.18.38:689][370]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/M_IceSpike92557BEE4A2FA68F01C2EEA35A29AF8A.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/M_IceSpike.uasset'
+[2015.03.24-18.18.38:701][370]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 64 instructions
+[2015.03.24-18.18.38:701][370]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2015.03.24-18.18.38:701][370]MaterialEditorStats: Info Texture samplers: 4/16
+[2015.03.24-18.18.45:892][718]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.18.51:229][905]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.19.27:773][635]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.19.31:584][758]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.19.46:875][356]BlueprintLog: New page: Compile SM_IceSpike01
+[2015.03.24-18.19.46:947][356]BlueprintEditorCompileResults: Info [1786.41] Compile of SM_IceSpike01 successful! [in 72 ms]
+[2015.03.24-18.19.47:513][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SM_IceSpike01" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_IceSpike01.uasset" SILENT=true
+[2015.03.24-18.19.47:916][382]LogSavePackage: Save=396.690155ms
+[2015.03.24-18.19.47:916][382]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_IceSpike01B5C8A1E149DC6D2ADA96ABBB6D2831CA.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_IceSpike01.uasset'
+[2015.03.24-18.20.06:859][122]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2015.03.24-18.20.14:350][523]LogTexture:Display: Building textures: T_IceSpike_N (BC5)
+[2015.03.24-18.20.16:064][612]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Meshes/T_IceSpike_N" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/T_IceSpike_N.uasset" SILENT=true
+[2015.03.24-18.20.16:885][612]LogSavePackage: Save=816.257019ms
+[2015.03.24-18.20.16:885][612]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/T_IceSpike_NEEA0841D47962D184F820CB92CE176AE.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/T_IceSpike_N.uasset'
+[2015.03.24-18.20.21:602][863]Cmd: DELETE
+[2015.03.24-18.20.21:602][863]Cmd: ACTOR DELETE
+[2015.03.24-18.20.21:606][863]LogEditorActor: Deleted Actor: Brush
+[2015.03.24-18.20.21:623][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000570D7A60
+[2015.03.24-18.20.21:623][863]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000044E7BE20
+[2015.03.24-18.20.21:646][863]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2015.03.24-18.20.24:347][  8]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-18.20.25:083][ 48]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.24-18.20.25:596][ 79]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Character'
+[2015.03.24-18.20.26:681][137]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-18.20.27:013][155]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.20.28:198][211]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.20.29:724][285]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Meshes/SM_IceSpike1'
+[2015.03.24-18.20.29:725][285]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Meshes/SM_IceSpike1' while loading H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_IceSpike01.uasset.
+[2015.03.24-18.20.29:725][285]LoadErrors:Error: Error /Game/SideScrollerBP/Blueprints/SM_IceSpike01 : Can't find file for asset. /Game/SideScrollerBP/Meshes/SM_IceSpike1
+[2015.03.24-18.20.29:725][285]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Meshes/SM_IceSpike1'
+[2015.03.24-18.20.29:725][285]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Meshes/SM_IceSpike1' while loading H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_IceSpike01.uasset.
+[2015.03.24-18.20.35:970][690]LogPrimitiveComponent: Zero scaling not supported (/Game/SideScrollerBP/Maps/Ascension6.Ascension6:PersistentLevel.SM_IceSpike01_77.SM_IceSpike1)
+[2015.03.24-18.20.36:038][695]LogPrimitiveComponent: Zero scaling not supported (/Game/SideScrollerBP/Maps/Ascension6.Ascension6:PersistentLevel.SM_IceSpike01_77.SM_IceSpike1)
+[2015.03.24-18.20.36:066][697]LogPrimitiveComponent: Zero scaling not supported (/Game/SideScrollerBP/Maps/Ascension6.Ascension6:PersistentLevel.SM_IceSpike01_77.SM_IceSpike1)
+[2015.03.24-18.20.36:120][701]LogPrimitiveComponent: Zero scaling not supported (/Game/SideScrollerBP/Maps/Ascension6.Ascension6:PersistentLevel.SM_IceSpike01_77.SM_IceSpike1)
+[2015.03.24-18.21.02:587][532]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Character'
+[2015.03.24-18.21.02:974][539]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.24-18.21.03:412][552]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-18.21.04:272][602]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.21.09:552][912]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-18.21.10:356][959]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.24-18.21.10:783][988]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-18.21.11:307][ 17]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.21.16:605][332]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.24-18.21.17:363][383]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Character'
+[2015.03.24-18.21.18:185][430]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.21.19:203][490]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Character'
+[2015.03.24-18.21.19:677][518]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.24-18.21.20:730][592]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-18.21.21:380][628]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.21.28:483][ 38]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-18.21.28:919][ 61]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.21.29:459][ 84]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-18.21.31:148][180]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.24-18.21.32:050][242]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.21.42:801][896]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Character'
+[2015.03.24-18.21.44:274][984]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.24-18.21.45:056][ 38]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-18.21.48:362][233]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.21.51:795][375]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.22.03:277][973]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.22.39:785][111]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.22.39:808][111]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/SM_IceSpike03.SM_IceSpike03:UserConstructionScript.K2Node_FunctionEntry_73' ref from Metadata '/Game/SideScrollerBP/Blueprints/NewBlueprint3.PackageMetaData'
+[2015.03.24-18.22.39:809][111]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/SM_IceSpike03.SM_IceSpike03:EventGraph.K2Node_Event_140' ref from Metadata '/Game/SideScrollerBP/Blueprints/NewBlueprint3.PackageMetaData'
+[2015.03.24-18.22.39:809][111]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/SM_IceSpike03.SKEL_SM_IceSpike03_C' ref from Metadata '/Game/SideScrollerBP/Blueprints/NewBlueprint3.PackageMetaData'
+[2015.03.24-18.22.39:809][111]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/SM_IceSpike03.SM_IceSpike03_C' ref from Metadata '/Game/SideScrollerBP/Blueprints/NewBlueprint3.PackageMetaData'
+[2015.03.24-18.22.39:809][111]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/SM_IceSpike03.SM_IceSpike03:EventGraph.K2Node_Event_139' ref from Metadata '/Game/SideScrollerBP/Blueprints/NewBlueprint3.PackageMetaData'
+[2015.03.24-18.22.39:809][111]LogMetaData: Removing '/Game/SideScrollerBP/Blueprints/SM_IceSpike03.SM_IceSpike03:EventGraph.K2Node_Event_141' ref from Metadata '/Game/SideScrollerBP/Blueprints/NewBlueprint3.PackageMetaData'
+[2015.03.24-18.22.39:873][111]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SM_IceSpike03" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_IceSpike03.uasset" SILENT=true
+[2015.03.24-18.22.40:240][111]LogSavePackage: Save=109.723328ms
+[2015.03.24-18.22.40:240][111]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_IceSpike03619DD36444EA809E6862479D72B1A9C2.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_IceSpike03.uasset'
+[2015.03.24-18.22.42:220][196]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.22.48:742][196]LogSavePackage: Save=5883.641602ms
+[2015.03.24-18.22.48:742][196]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Ascension6_Auto3941E1EA84B1D5B06B200549F699A8E28.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Maps/Ascension6_Auto3.umap'
+[2015.03.24-18.22.48:755][196]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/SideScrollerBP/Maps/Ascension6' took 6.536
+[2015.03.24-18.22.48:755][196]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.536
+[2015.03.24-18.22.48:799][196]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Meshes/SM_IceSpike1] ([1] browsable assets)...
+[2015.03.24-18.22.48:826][196]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SideScrollerBP/Meshes/SM_IceSpike1.SM_IceSpike1]
+[2015.03.24-18.22.48:826][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Meshes/SM_IceSpike1]
+[2015.03.24-18.22.49:274][196]LogSavePackage: Save=440.169312ms
+[2015.03.24-18.22.49:274][196]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_IceSpike1_Auto39D22F239401F11FEC986B0A9916F335E.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Meshes/SM_IceSpike1_Auto3.uasset'
+[2015.03.24-18.22.49:553][196]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Meshes/SM_IceSpike2] ([1] browsable assets)...
+[2015.03.24-18.22.49:579][196]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SideScrollerBP/Meshes/SM_IceSpike2.SM_IceSpike2]
+[2015.03.24-18.22.49:579][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Meshes/SM_IceSpike2]
+[2015.03.24-18.22.50:116][196]LogSavePackage: Save=468.253235ms
+[2015.03.24-18.22.50:116][196]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_IceSpike2_Auto36D7AC40844DC1FDFDA398AA509E694B7.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Meshes/SM_IceSpike2_Auto3.uasset'
+[2015.03.24-18.22.50:161][196]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Meshes/SM_IceSpike3] ([1] browsable assets)...
+[2015.03.24-18.22.50:183][196]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SideScrollerBP/Meshes/SM_IceSpike3.SM_IceSpike3]
+[2015.03.24-18.22.50:183][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Meshes/SM_IceSpike3]
+[2015.03.24-18.22.51:539][196]LogSavePackage: Save=1232.846558ms
+[2015.03.24-18.22.51:540][196]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_IceSpike3_Auto33B8E2C1A49A7DEF9B78EC6B5BF2E8BC6.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Meshes/SM_IceSpike3_Auto3.uasset'
+[2015.03.24-18.22.52:061][196]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Meshes/SM_Menir_01] ([1] browsable assets)...
+[2015.03.24-18.22.52:082][196]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SideScrollerBP/Meshes/SM_Menir_01.SM_Menir_01]
+[2015.03.24-18.22.52:082][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Meshes/SM_Menir_01]
+[2015.03.24-18.22.52:985][196]LogSavePackage: Save=726.278503ms
+[2015.03.24-18.22.52:985][196]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_Menir_01_Auto3830D62864EB8B442F0F28DB2759D3E81.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Meshes/SM_Menir_01_Auto3.uasset'
+[2015.03.24-18.22.53:033][196]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SideScrollerBP/Meshes/SM_Menir_02] ([1] browsable assets)...
+[2015.03.24-18.22.53:069][196]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/SideScrollerBP/Meshes/SM_Menir_02.SM_Menir_02]
+[2015.03.24-18.22.53:069][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Meshes/SM_Menir_02]
+[2015.03.24-18.22.53:453][196]LogSavePackage: Save=363.781769ms
+[2015.03.24-18.22.53:454][196]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_Menir_02_Auto36D0C340E48357CE03EC20E82D6865271.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Meshes/SM_Menir_02_Auto3.uasset'
+[2015.03.24-18.22.53:509][196]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SideScrollerBP/Blueprints/SM_iceSpike02] ([1] browsable assets)...
+[2015.03.24-18.22.53:509][196]OBJ SavePackage: Finished generating thumbnails for package [/Game/SideScrollerBP/Blueprints/SM_iceSpike02]
+[2015.03.24-18.22.53:695][196]LogSavePackage: Save=153.307831ms
+[2015.03.24-18.22.53:695][196]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_iceSpike02_Auto3E5993E2941C1EFFD8840D4A6168B3423.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Blueprints/SM_iceSpike02_Auto3.uasset'
+[2015.03.24-18.22.53:793][196]LogSavePackage: Save=59.782402ms
+[2015.03.24-18.22.53:793][196]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/NewBlueprint3_Auto3D70B049549E58E45C5AB50A0AEFD72E7.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Autosaves/Game/SideScrollerBP/Blueprints/NewBlueprint3_Auto3.uasset'
+[2015.03.24-18.22.53:819][196]LogFileHelpers: Auto-saving content packages took 5.062
+[2015.03.24-18.23.02:699][774]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.23.06:904][999]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.23.20:766][713]BlueprintLog: New page: Compile SM_iceSpike02
+[2015.03.24-18.23.20:832][713]BlueprintEditorCompileResults: Info [2000.28] Compile of SM_iceSpike02 successful! [in 65 ms]
+[2015.03.24-18.23.21:335][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SM_iceSpike02" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_iceSpike02.uasset" SILENT=true
+[2015.03.24-18.23.21:741][740]LogSavePackage: Save=400.680237ms
+[2015.03.24-18.23.21:742][740]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_iceSpike0291C643544B4892515124AFAA7BE4B698.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_iceSpike02.uasset'
+[2015.03.24-18.23.26:638][ 25]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.23.38:175][ 67]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.23.39:789][141]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.23.52:271][765]BlueprintLog: New page: Compile SM_IceSpike03
+[2015.03.24-18.23.52:335][765]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D0209A0
+[2015.03.24-18.23.52:342][765]BlueprintEditorCompileResults: Info [2031.79] Compile of SM_IceSpike03 successful! [in 71 ms]
+[2015.03.24-18.23.52:797][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/SM_IceSpike03" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_IceSpike03.uasset" SILENT=true
+[2015.03.24-18.23.53:235][790]LogSavePackage: Save=405.065765ms
+[2015.03.24-18.23.53:235][790]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_IceSpike03004BD3E1422651A9B126F9BCF5BF2018.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_IceSpike03.uasset'
+[2015.03.24-18.23.56:035][953]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Maps'
+[2015.03.24-18.23.56:496][981]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.24.00:428][215]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Meshes/SM_IceSpike2'
+[2015.03.24-18.24.00:428][215]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Meshes/SM_IceSpike2' while loading H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_iceSpike02.uasset.
+[2015.03.24-18.24.00:428][215]LoadErrors:Error: Error /Game/SideScrollerBP/Blueprints/SM_iceSpike02 : Can't find file for asset. /Game/SideScrollerBP/Meshes/SM_IceSpike2
+[2015.03.24-18.24.00:428][215]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Meshes/SM_IceSpike2'
+[2015.03.24-18.24.00:428][215]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Meshes/SM_IceSpike2' while loading H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_iceSpike02.uasset.
+[2015.03.24-18.24.06:947][637]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Meshes/SM_IceSpike3'
+[2015.03.24-18.24.06:947][637]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Meshes/SM_IceSpike3' while loading H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_IceSpike03.uasset.
+[2015.03.24-18.24.06:947][637]LoadErrors:Error: Error /Game/SideScrollerBP/Blueprints/SM_IceSpike03 : Can't find file for asset. /Game/SideScrollerBP/Meshes/SM_IceSpike3
+[2015.03.24-18.24.06:947][637]LogLinker:Warning: Can't find file '/Game/SideScrollerBP/Meshes/SM_IceSpike3'
+[2015.03.24-18.24.06:947][637]LogLinker:Warning: Can't find file for asset '/Game/SideScrollerBP/Meshes/SM_IceSpike3' while loading H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/SM_IceSpike03.uasset.
+[2015.03.24-18.24.18:706][407]LogEditorViewport: Clicking on Actor (LMB): SM_IceSpike01_C (SM_IceSpike01)
+[2015.03.24-18.24.35:117][494]LogEditorViewport: Clicking on Actor (LMB): SM_iceSpike02_C (SM_iceSpike02)
+[2015.03.24-18.24.44:993][207]LogEditorViewport: Clicking on Actor (LMB): SM_IceSpike03_C (SM_IceSpike03)
+[2015.03.24-18.24.49:314][493]LogEditorViewport: Clicking on Actor (LMB): SM_iceSpike02_C (SM_iceSpike02)
+[2015.03.24-18.24.51:975][689]LogEditorViewport: Clicking on Actor (LMB): SM_IceSpike03_C (SM_IceSpike03)
+[2015.03.24-18.25.06:413][696]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x5_set4_2_C (SM_RockBloc5x5_set4_2)
+[2015.03.24-18.25.08:228][812]LogEditorViewport: Clicking on Actor (LMB): SM_IceSpike03_C (SM_IceSpike4)
+[2015.03.24-18.25.12:503][ 88]LogEditorViewport: Clicking on Actor (LMB): SM_iceSpike02_C (SM_iceSpike3)
+[2015.03.24-18.25.14:191][197]LogEditorViewport: Clicking on Actor (LMB): SM_IceSpike01_C (SM_IceSpike01)
+[2015.03.24-18.25.18:221][456]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock27)
+[2015.03.24-18.25.20:011][567]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock27)
+[2015.03.24-18.25.20:256][580]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock27)
+[2015.03.24-18.25.22:587][719]Cmd: TRANSACTION UNDO
+[2015.03.24-18.25.22:587][719]LogEditorTransaction: Undo Move Actors
+[2015.03.24-18.27.17:332][454]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.03.24-18.27.17:332][454]PIE: New page: PIE session: Ascension6 (Mar 24, 2015, 10:27:17 AM)
+[2015.03.24-18.27.17:368][454]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026610s)
+[2015.03.24-18.27.17:368][454]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2015.03.24-18.27.17:369][454]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/SideScrollerBP/Maps/Ascension6.Ascension6 to /Game/SideScrollerBP/Maps/UEDPIE_0_Ascension6.Ascension6 (0.027486s)
+[2015.03.24-18.27.17:716][454]LogWorld: Game class is 'SideScrollerGameMode_C'
+[2015.03.24-18.27.17:718][454]LogAIModule: Creating AISystem for world Ascension6
+[2015.03.24-18.27.17:760][454]LogWorld: Bringing World /Game/SideScrollerBP/Maps/UEDPIE_0_Ascension6.Ascension6 up for play (max tick rate 0) at 2015.03.24-14.27.17
+[2015.03.24-18.27.17:765][454]LogWorld: Bringing up level for play took: 0.046672
+[2015.03.24-18.27.17:767][454]PIE: Info Play in editor start time for /Game/SideScrollerBP/Maps/UEDPIE_0_Ascension6 0.064
+[2015.03.24-18.27.20:624][632]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.27.20:642][632]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004DEB8E00
+[2015.03.24-18.27.20:643][632]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004E5C2E80
+[2015.03.24-18.27.25:003][885]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Animations'
+[2015.03.24-18.27.26:399][957]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.27.38:988][199]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.27.39:018][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/Ascension7" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension7.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.24-18.27.41:342][199]LogSavePackage: Save=2302.651611ms
+[2015.03.24-18.27.41:342][199]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Ascension7B201A80E4D299381630ABAA5D94AE32D.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension7.umap'
+[2015.03.24-18.27.41:390][199]LogFileHelpers: Saving map 'Ascension7' took 5.401
+[2015.03.24-18.28.01:976][456]LogEditorViewport: Clicking on Actor (LMB): SM_Rock3_C (SM_Rock26)
+[2015.03.24-18.29.23:049][595]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x10set3_1_C (SM_RockBloc5x10set3_11)
+[2015.03.24-18.29.23:505][620]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_RockBloc5x10Set6_1_C (SM_RockBloc5x10Set6_12)
+[2015.03.24-18.29.25:378][727]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x10Set6_1_C (SM_RockBloc5x10Set6_12)
+[2015.03.24-18.29.26:041][764]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_RockBloc5x10set3_1_C (SM_RockBloc5x10set3_11)
+[2015.03.24-18.29.31:052][ 46]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x10set2_1_C (SM_RockBloc5x10set2_8)
+[2015.03.24-18.29.32:272][114]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x10Set6_1_C (SM_RockBloc5x10Set6_11)
+[2015.03.24-18.29.33:745][196]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x10set2_1_C (SM_RockBloc5x10set2_7)
+[2015.03.24-18.29.34:537][240]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_RockBlock5x10set5_3_C (SM_RockBlock5x10set5_10)
+[2015.03.24-18.29.39:867][533]LogEditorViewport: Clicking on Actor (LMB): SM_RockBloc5x10set3_1_C (SM_RockBloc5x10set3_19)
+[2015.03.24-18.29.46:231][888]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlock5x10set4_2_C (SM_RockBlock5x10set4_11)
+[2015.03.24-18.29.46:780][918]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_RockBlock5x10set1_1_C (SM_RockBlock5x10set1_10)
+[2015.03.24-18.29.50:753][134]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_RockBloc5x10set3_1_C (SM_RockBloc5x10set3_19)
+[2015.03.24-18.29.51:195][157]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_RockBloc5x10Set6_1_C (SM_RockBloc5x10Set6_15)
+[2015.03.24-18.29.51:543][175]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_RockBloc5x10set2_1_C (SM_RockBloc5x10set2_12)
+[2015.03.24-18.29.52:132][206]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_RockBlock5x10set5_3_C (SM_RockBlock5x10set5_13)
+[2015.03.24-18.30.33:301][601]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlock5x10set4_2_C (SM_RockBlock5x10set4_16)
+[2015.03.24-18.30.33:967][656]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_RockBlock5x10set1_1_C (SM_RockBlock5x10set1_15)
+[2015.03.24-18.30.35:761][805]LogEditorViewport: Clicking on Actor (LMB): SM_RockBlockWall5x10set4_2_C (SM_RockBlockWall5x10set4_5)
+[2015.03.24-18.30.39:045][ 53]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_RockBlockWall5x10set5_3_C (SM_RockBlockWall5x10set5_5)
+[2015.03.24-18.30.48:077][572]LogEditorViewport: Clicking on Actor (LMB): SM_IceSpike03_C (SM_IceSpike03)
+[2015.03.24-18.30.48:507][597]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_IceSpike03_C (SM_IceSpike4)
+[2015.03.24-18.30.48:957][623]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_IceSpike01_C (SM_IceSpike01)
+[2015.03.24-18.30.49:298][643]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_iceSpike02_C (SM_iceSpike3)
+[2015.03.24-18.30.50:152][694]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_iceSpike02_C (SM_iceSpike02)
+[2015.03.24-18.30.50:453][710]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_IceSpike01_C (SM_IceSpike2)
+[2015.03.24-18.30.55:855][837]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.24-18.30.58:544][950]Cmd: TRANSACTION UNDO
+[2015.03.24-18.30.58:544][950]LogEditorTransaction: Undo Clicking on Actors
+[2015.03.24-18.31.12:099][659]Cmd: DELETE
+[2015.03.24-18.31.12:099][659]Cmd: ACTOR DELETE
+[2015.03.24-18.31.12:100][659]LogEditorActor: Deleted Actor: Brush
+[2015.03.24-18.31.12:152][659]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2015.03.24-18.31.19:356][ 82]LogEditorViewport: Clicking on Actor (LMB): SM_Rock1_C (SM_Rock31)
+[2015.03.24-18.31.19:898][109]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_Rock3_C (SM_Rock30)
+[2015.03.24-18.31.20:190][122]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_Rock4_C (SM_Rock29)
+[2015.03.24-18.31.56:309][651]LogEditorViewport: Clicking on Actor (LMB): SM_Rock1_C (SM_Rock54)
+[2015.03.24-18.32.09:911][534]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock27)
+[2015.03.24-18.32.24:414][335]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_WoodenBeam21)
+[2015.03.24-18.33.01:000][506]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock55)
+[2015.03.24-18.33.17:875][542]LogEditorViewport: Clicking on Actor (LMB): SM_Rock2_C (SM_Rock25)
+[2015.03.24-18.33.22:880][765]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock27)
+[2015.03.24-18.33.24:546][840]LogEditorViewport: Clicking on Actor (LMB): SM_Rock3_C (SM_Rock26)
+[2015.03.24-18.34.04:498][150]LogEditorViewport: Clicking on Actor (LMB): SM_Rock1_C (SM_Rock24)
+[2015.03.24-18.34.54:602][ 90]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_StoneBridge5x18)
+[2015.03.24-18.34.58:019][262]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.24-18.35.13:186][679]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.35.13:218][679]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/Ascension8" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension8.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.24-18.35.15:507][679]LogSavePackage: Save=2266.978271ms
+[2015.03.24-18.35.15:507][679]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Ascension8CDD5B4264E7C20330483BE960698CB2D.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension8.umap'
+[2015.03.24-18.35.15:544][679]LogFileHelpers: Saving map 'Ascension8' took 2.727
+[2015.03.24-18.35.27:412][276]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_StoneBridge5x18)
+[2015.03.24-18.36.01:220][400]Cmd: TRANSACTION UNDO
+[2015.03.24-18.36.01:220][400]LogEditorTransaction: Undo Move Actors
+[2015.03.24-18.36.15:802][321]LogEditorViewport: Clicking on Actor (LMB): SM_Rock3_C (SM_Rock26)
+[2015.03.24-18.37.29:692][629]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock47)
+[2015.03.24-18.38.12:886][606]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.24-18.38.18:237][882]LogEditorViewport: Clicking on Actor (LMB): SM_iceSpike02_C (SM_iceSpike3)
+[2015.03.24-18.38.19:613][954]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_IceSpike01_C (SM_IceSpike01)
+[2015.03.24-18.38.20:246][989]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_IceSpike03_C (SM_IceSpike4)
+[2015.03.24-18.38.22:073][ 90]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_IceSpike03_C (SM_IceSpike03)
+[2015.03.24-18.38.22:796][130]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_iceSpike02_C (SM_iceSpike02)
+[2015.03.24-18.38.23:433][166]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_IceSpike01_C (SM_IceSpike2)
+[2015.03.24-18.38.52:893][722]LogEditorViewport: Clicking on Actor (LMB): SM_Rock4_C (SM_Rock27)
+[2015.03.24-18.38.54:381][793]LogEditorViewport: Clicking on Actor (LMB): SM_Rock2_C (SM_Rock25)
+[2015.03.24-18.38.54:771][811]LogEditorViewport: Clicking on Actor (LMB): SM_Rock1_C (SM_Rock24)
+[2015.03.24-18.39.17:912][128]LogEditorViewport: Clicking on Actor (LMB): SM_Rock1_C (SM_Rock60)
+[2015.03.24-18.39.38:192][417]LogEditorViewport: Clicking on Actor (LMB): SM_IceSpike01_C (SM_IceSpike15)
+[2015.03.24-18.39.38:766][455]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_iceSpike02_C (SM_iceSpike12)
+[2015.03.24-18.39.39:279][488]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_IceSpike03_C (SM_IceSpike10)
+[2015.03.24-18.39.39:776][521]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_IceSpike03_C (SM_IceSpike11)
+[2015.03.24-18.39.40:344][560]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_IceSpike01_C (SM_IceSpike14)
+[2015.03.24-18.39.41:239][621]LogEditorViewport: Clicking on Actor (CTRL LMB): SM_iceSpike02_C (SM_iceSpike13)
+[2015.03.24-18.39.53:031][381]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (SkySphereBlueprint)
+[2015.03.24-18.40.07:305][868]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/Ascension9" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension9.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.24-18.40.09:736][868]LogSavePackage: Save=2409.075439ms
+[2015.03.24-18.40.09:736][868]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Ascension9519AD99940168F12C83B59B1E3FB9E27.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension9.umap'
+[2015.03.24-18.40.09:772][868]LogFileHelpers: Saving map 'Ascension9' took 2.874
+[2015.03.24-18.40.11:922][971]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.40.18:314][ 13]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-18.40.18:646][ 28]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Meshes'
+[2015.03.24-18.40.20:235][ 82]LogRenderer:Warning: Reallocating scene render targets to support 1328x928 (Frame:229938).
+[2015.03.24-18.40.23:334][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Meshes/SM_IceSpike1" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/SM_IceSpike1.uasset" SILENT=true
+[2015.03.24-18.40.23:636][441]LogSavePackage: Save=296.303864ms
+[2015.03.24-18.40.23:636][441]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_IceSpike1E325063740B5BE74E6AA93A5B8ABD805.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/SM_IceSpike1.uasset'
+[2015.03.24-18.40.26:239][640]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Meshes/SM_IceSpike2" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/SM_IceSpike2.uasset" SILENT=true
+[2015.03.24-18.40.26:545][640]LogSavePackage: Save=300.699982ms
+[2015.03.24-18.40.26:545][640]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_IceSpike28F3487C24F6BD32FE843908D4C59276E.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/SM_IceSpike2.uasset'
+[2015.03.24-18.40.29:271][846]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Meshes/SM_IceSpike3" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/SM_IceSpike3.uasset" SILENT=true
+[2015.03.24-18.40.29:579][846]LogSavePackage: Save=302.783752ms
+[2015.03.24-18.40.29:579][846]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_IceSpike3B43D8F8D413B8EA9FA86A09A9B38A7C4.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/SM_IceSpike3.uasset'
+[2015.03.24-18.40.32:901][107]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Meshes/SM_Menir_01" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/SM_Menir_01.uasset" SILENT=true
+[2015.03.24-18.40.33:162][107]LogSavePackage: Save=255.770035ms
+[2015.03.24-18.40.33:162][107]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_Menir_01C50F7D444B6CD751C4968F94DEBD836F.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/SM_Menir_01.uasset'
+[2015.03.24-18.40.36:071][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Meshes/SM_Menir_02" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/SM_Menir_02.uasset" SILENT=true
+[2015.03.24-18.40.36:321][353]LogSavePackage: Save=244.133057ms
+[2015.03.24-18.40.36:321][353]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/SM_Menir_0233F356524DFC6C7769AC0F85B3028540.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Meshes/SM_Menir_02.uasset'
+[2015.03.24-18.40.49:128][814]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Maps/Ascension9" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension9.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.03.24-18.40.49:132][814]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.40.49:146][814]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045436E80
+[2015.03.24-18.40.49:146][814]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CE8B7E0
+[2015.03.24-18.40.49:146][814]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D022A20
+[2015.03.24-18.40.49:146][814]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CA14860
+[2015.03.24-18.40.49:146][814]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000E1239C0
+[2015.03.24-18.40.51:865][814]LogSavePackage: Save=2443.414307ms
+[2015.03.24-18.40.51:865][814]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/Ascension94AADF73F48794A8D87C07DB9D2F63228.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Maps/Ascension9.umap'
+[2015.03.24-18.40.51:902][814]LogFileHelpers: Saving map 'Ascension9' took 3.755
+[2015.03.24-18.41.01:929][ 34]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Materials'
+[2015.03.24-18.41.02:612][ 64]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.41.10:582][438]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints/RockBloc5x10NoSmooth'
+[2015.03.24-18.41.12:201][513]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints/RockBlocWall'
+[2015.03.24-18.41.13:714][581]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints/TopLeft'
+[2015.03.24-18.41.14:924][637]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints/TopRight'
+[2015.03.24-18.41.16:568][713]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.41.23:671][ 44]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.41.41:069][111]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints/RockBloc5x10NoSmooth'
+[2015.03.24-18.41.41:925][150]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.41.54:126][732]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.42.00:319][864]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SideScrollerBP/Blueprints'
+[2015.03.24-18.42.11:111][434]BlueprintLog: New page: Compile NewBlueprint3
+[2015.03.24-18.42.11:144][434]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.42.11:165][434]BlueprintEditorCompileResults: Info [3130.54] Compile of NewBlueprint3 successful! [in 53 ms]
+[2015.03.24-18.42.11:660][487]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SideScrollerBP/Blueprints/NewBlueprint3" FILE="H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/NewBlueprint3.uasset" SILENT=true
+[2015.03.24-18.42.11:710][487]LogSavePackage: Save=44.771446ms
+[2015.03.24-18.42.11:710][487]LogSavePackage: Moving 'H:/Projet_AscensionV1/Projet_Ascension/Saved/NewBlueprint3350B9E454010F28CEB293D89A0F3DFF9.tmp' to 'H:/Projet_AscensionV1/Projet_Ascension/Content/SideScrollerBP/Blueprints/NewBlueprint3.uasset'
+[2015.03.24-18.42.19:401][975]LogEditorViewport: Clicking on Actor (LMB): SM_Rock3_C (SM_Rock52)
+[2015.03.24-18.42.24:243][211]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.03.24-18.42.24:263][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000037E66CA0
+[2015.03.24-18.42.24:669][212]Cmd: QUIT_EDITOR
+[2015.03.24-18.42.24:848][212]LogExit: Preparing to exit.
+[2015.03.24-18.42.25:461][212]LogExit: Editor shut down
+[2015.03.24-18.42.25:461][212]LogExit: Transaction tracking system shut down
+[2015.03.24-18.42.25:462][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D3F5EE0
+[2015.03.24-18.42.25:462][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000038A4DBC0
+[2015.03.24-18.42.25:462][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004EA94B80
+[2015.03.24-18.42.25:464][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003889B560
+[2015.03.24-18.42.25:464][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D51CFE0
+[2015.03.24-18.42.25:464][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003D51CC20
+[2015.03.24-18.42.25:465][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004322BB00
+[2015.03.24-18.42.25:467][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004322B880
+[2015.03.24-18.42.25:467][212]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000058690EA0
+[2015.03.24-18.42.25:558][212]LogExit: Object subsystem successfully closed.
+[2015.03.24-18.42.25:599][212]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (180)
+[2015.03.24-18.42.25:599][212]LogModuleManager: Shutting down and abandoning module TextureEditor (179)
+[2015.03.24-18.42.25:599][212]LogModuleManager: Shutting down and abandoning module MaterialEditor (178)
+[2015.03.24-18.42.25:599][212]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.03.24-18.42.25:599][212]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.03.24-18.42.25:599][212]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.03.24-18.42.25:599][212]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.03.24-18.42.25:599][212]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.03.24-18.42.25:599][212]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.03.24-18.42.25:599][212]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.03.24-18.42.25:599][212]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.03.24-18.42.25:599][212]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.03.24-18.42.25:600][212]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.03.24-18.42.25:914][212]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.03.24-18.42.26:191][212]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.03.24-18.42.26:191][212]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.03.24-18.42.26:191][212]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.03.24-18.42.26:192][212]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.03.24-18.42.26:193][212]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.03.24-18.42.26:193][212]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.03.24-18.42.26:260][212]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.03.24-18.42.26:261][212]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.03.24-18.42.26:261][212]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.03.24-18.42.26:261][212]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.03.24-18.42.26:361][212]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.03.24-18.42.26:361][212]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.03.24-18.42.26:363][212]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.03.24-18.42.26:363][212]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.03.24-18.42.26:363][212]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.03.24-18.42.26:363][212]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.03.24-18.42.26:363][212]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.03.24-18.42.26:363][212]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.03.24-18.42.26:363][212]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.03.24-18.42.26:364][212]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.03.24-18.42.26:364][212]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.03.24-18.42.26:364][212]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.03.24-18.42.26:364][212]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.03.24-18.42.26:364][212]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.03.24-18.42.26:364][212]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.03.24-18.42.26:364][212]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.03.24-18.42.26:364][212]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.03.24-18.42.26:366][212]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.03.24-18.42.26:366][212]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.03.24-18.42.26:366][212]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.03.24-18.42.26:366][212]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.03.24-18.42.26:366][212]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.03.24-18.42.26:366][212]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.03.24-18.42.26:366][212]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.03.24-18.42.26:366][212]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.03.24-18.42.26:366][212]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.03.24-18.42.26:367][212]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.03.24-18.42.26:404][212]LogDerivedDataCache: Shutdown
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.03.24-18.42.26:404][212]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.03.24-18.42.26:405][212]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.03.24-18.42.26:406][212]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.03.24-18.42.26:406][212]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.03.24-18.42.26:406][212]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.03.24-18.42.26:406][212]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.03.24-18.42.26:406][212]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.03.24-18.42.26:406][212]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.03.24-18.42.26:406][212]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.03.24-18.42.26:406][212]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.03.24-18.42.26:406][212]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.03.24-18.42.26:407][212]LogExit: Exiting.
+[2015.03.24-18.42.26:428][212]Log file closed, 03/24/15 14:42:26
